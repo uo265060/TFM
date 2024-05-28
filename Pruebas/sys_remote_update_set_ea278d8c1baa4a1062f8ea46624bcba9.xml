@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:15:36">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Pruebas</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>15d0cd081baa4a1062f8ea46624bcb7a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>ea278d8c1baa4a1062f8ea46624bcba9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_b0a38d461bb5021062f8ea46624bcbc2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas de gestión de incidentes</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Gestión de incidentes</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-27 14:21:05</sys_created_on><sys_id>b0a38d461bb5021062f8ea46624bcbc2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Gestión de incidentes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_b0a38d461bb5021062f8ea46624bcbc2</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-29 11:44:46</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=b0a38d461bb5021062f8ea46624bcbc2"/></record_update>]]></payload>
+<payload_hash>-1856326935</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>26278d8c1baa4a1062f8ea46624bcbab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe539590000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>Gestión de incidentes</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>cd61c54866aa4a10556809edfe70c68d</update_guid>
+<update_guid_history>cd61c54866aa4a10556809edfe70c68d:-1856326935,4d13b6e27bf982106c6e782be7702970:-1856326935,1ba3818610b502101dd6132611459b04:986567250</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_477fe5421bb9021062f8ea46624bcb6d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas de gestión de activos en préstamo</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Gestión de activos en préstamo</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-27 17:32:59</sys_created_on><sys_id>477fe5421bb9021062f8ea46624bcb6d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Gestión de activos en préstamo</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_477fe5421bb9021062f8ea46624bcb6d</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-29 11:44:33</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=477fe5421bb9021062f8ea46624bcb6d"/></record_update>]]></payload>
+<payload_hash>-494440588</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>2a278d8c1baa4a1062f8ea46624bcbaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe5388c0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>Gestión de activos en préstamo</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>cd61c548ddaa4a1080dd110575f76884</update_guid>
+<update_guid_history>cd61c548ddaa4a1080dd110575f76884:-494440588,420336e2f1f982104a1231f9733b142f:-494440588,9a9fa942bfb90210c291a269f3384086:867314266</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_9db501b01b318e1018398485604bcb0b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas del script include ReserveComputerUtils</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>ReserveComputerUtils Script Include Tests Lucia</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-23 17:17:47</sys_created_on><sys_id>9db501b01b318e1018398485604bcb0b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ReserveComputerUtils Script Include Tests Lucia</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_9db501b01b318e1018398485604bcb0b</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-23 18:30:00</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=9db501b01b318e1018398485604bcb0b"/></record_update>]]></payload>
+<payload_hash>-559867634</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>62278d8c1baa4a1062f8ea46624bcbab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe5392c0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>ReserveComputerUtils Script Include Tests Lucia</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>c961c54809aa4a105ace33c63e5c068b</update_guid>
+<update_guid_history>c961c54809aa4a105ace33c63e5c068b:-559867634,5a465df092718e10f131a18617755ed5:-559867634,fcc501b081318e10f3011ede28dc4d12:1202158866</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_39c3b4bc1bbd4e1018398485604bcbbc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas del script include GetBuildingUtils</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>GetBuildingUtils Script Include Tests Lucia</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-23 15:59:27</sys_created_on><sys_id>39c3b4bc1bbd4e1018398485604bcbbc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>GetBuildingUtils Script Include Tests Lucia</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_39c3b4bc1bbd4e1018398485604bcbbc</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-23 16:59:54</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=39c3b4bc1bbd4e1018398485604bcbbc"/></record_update>]]></payload>
+<payload_hash>1646916123</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>66278d8c1baa4a1062f8ea46624bcbaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe538510000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>GetBuildingUtils Script Include Tests Lucia</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>c961c54828aa4a10c20b38ecdea04082</update_guid>
+<update_guid_history>c961c54828aa4a10c20b38ecdea04082:1646916123,66a1857c99fd4e10f26cf16e8de0504d:1646916123,89d3b4bca9bd4e10bf8d94139ba782c2:1507854642</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_28c1857c1bfd4e1018398485604bcb52</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas del script include GetReturnStockroomUtils</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>GetReturnStockroomUtils Script Include Tests Lucia</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-23 17:00:34</sys_created_on><sys_id>28c1857c1bfd4e1018398485604bcb52</sys_id><sys_mod_count>1</sys_mod_count><sys_name>GetReturnStockroomUtils Script Include Tests Lucia</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_28c1857c1bfd4e1018398485604bcb52</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-23 18:29:40</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=28c1857c1bfd4e1018398485604bcb52"/></record_update>]]></payload>
+<payload_hash>-1326916228</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>a2278d8c1baa4a1062f8ea46624bcbaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe538260000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>GetReturnStockroomUtils Script Include Tests Lucia</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>c561c54891aa4a10bb018318ba4b0c80</update_guid>
+<update_guid_history>c561c54891aa4a10bb018318ba4b0c80:-1326916228,2936d9f0b0718e100a35977e7eed71f2:-1326916228,e8d1097c94fd4e1021a844a6883d74eb:-624561668</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_7f64554e1bf5021062f8ea46624bcb26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas de gestión de solicitudes</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Gestión de solicitudes</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-27 15:34:30</sys_created_on><sys_id>7f64554e1bf5021062f8ea46624bcb26</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Gestión de solicitudes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_7f64554e1bf5021062f8ea46624bcb26</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-29 11:44:55</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=7f64554e1bf5021062f8ea46624bcb26"/></record_update>]]></payload>
+<payload_hash>418327095</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>ae278d8c1baa4a1062f8ea46624bcbaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe539040000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>Gestión de solicitudes</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>c561c548beaa4a103f170b225437fe89</update_guid>
+<update_guid_history>c561c548beaa4a103f170b225437fe89:418327095,971376e261f98210d731bdeca4492a3c:418327095,7274554eb6f502109403d2c2030fafb8:-324982368</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_cb7b7ee01bf54e1018398485604bcb3b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas del Script Include EscalateIncidentUtils</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>EscalateIncidentUtils Script Include Tests Lucia</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-23 07:13:54</sys_created_on><sys_id>cb7b7ee01bf54e1018398485604bcb3b</sys_id><sys_mod_count>4</sys_mod_count><sys_name>EscalateIncidentUtils Script Include Tests Lucia</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_cb7b7ee01bf54e1018398485604bcb3b</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-23 17:00:17</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=cb7b7ee01bf54e1018398485604bcb3b"/></record_update>]]></payload>
+<payload_hash>-542849487</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>e6278d8c1baa4a1062f8ea46624bcbab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe5398b0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>EscalateIncidentUtils Script Include Tests Lucia</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>c161c5483daa4a105fb4f923a0b86790</update_guid>
+<update_guid_history>c161c5483daa4a105fb4f923a0b86790:-542849487,08c1097c12fd4e10a0dbbf8bb488b126:-542849487,65b1097c6bfd4e107cf6491aeb1a5c21:-282341302,32b37c7c33bd4e101eac34185506c0a9:-288088563,2a8b28748ebd4e1072cf9a31ba0c5910:-2042790987,7a8bb22468f54e10cefad13a784e25e7:-1826608462</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_74e2b2e21bf9821062f8ea46624bcbb1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas de gestión de cambios</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Gestión de cambios</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-29 11:44:04</sys_created_on><sys_id>74e2b2e21bf9821062f8ea46624bcbb1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Gestión de cambios</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_74e2b2e21bf9821062f8ea46624bcbb1</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-29 11:44:41</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=74e2b2e21bf9821062f8ea46624bcbb1"/></record_update>]]></payload>
+<payload_hash>-1082360113</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>ea278d8c1baa4a1062f8ea46624bcbaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe538cd0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>Gestión de cambios</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>c161c54819aa4a10f871d61afb8d2f87</update_guid>
+<update_guid_history>c161c54819aa4a10f871d61afb8d2f87:-1082360113,bb03b6e276f98210fb11344ce1fa3218:-1082360113,e6e2b2e2cff982109e33921f07ea75b9:-1331821232</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_288ec1f81b318e1018398485604bcb41</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Pruebas del script include GetStockroomUtils</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>GetStockroomUtils Script Include Tests</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-23 17:56:15</sys_created_on><sys_id>288ec1f81b318e1018398485604bcb41</sys_id><sys_mod_count>1</sys_mod_count><sys_name>GetStockroomUtils Script Include Tests</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_288ec1f81b318e1018398485604bcb41</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-04-23 18:29:50</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=288ec1f81b318e1018398485604bcb41"/></record_update>]]></payload>
+<payload_hash>1228628912</payload_hash>
+<remote_update_set display_value="LPG Pruebas">ea278d8c1baa4a1062f8ea46624bcba9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:15:35</sys_created_on>
+<sys_id>ee278d8c1baa4a1062f8ea46624bcba9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe537e10000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:15:35</sys_updated_on>
+<table/>
+<target_name>GetStockroomUtils Script Include Tests</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>81610548ceaa4a1057b6673e777ce4d2</update_guid>
+<update_guid_history>81610548ceaa4a1057b6673e777ce4d2:1228628912,37365df053718e108e1aee726ebff4d0:1228628912,009e05f8ee318e10985529095b1acf77:947439616</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
