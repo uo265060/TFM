@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:11:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Scripts de cliente</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d17af4801baa4a1062f8ea46624bcbe8</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>2d46418c1baa4a1062f8ea46624bcb6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_46ab80251b4a461018398485604bcbd8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Préstamo de ordenador"&gt;4ea61681470506100aeaa144846d43bd&lt;/cat_item&gt;&lt;cat_variable&gt;IO:daa65681470506100aeaa144846d434e&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Validación fechas 2&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+    var endDate = newValue;
+
+    if (g_form.getValue("start_date") != "") {
+        var startDate = g_form.getValue("start_date");
+        ga = new GlideAjax("global.ValidateFechasUtilsAjax");
+        ga.addParam("sysparm_name", "checkDates");
+        ga.addParam("sysparm_startDate", startDate);
+        ga.addParam("sysparm_returnDate", endDate);
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+			
+            if (obj.valid == false) {
+                g_form.setValue("start_date", "");
+                g_form.setValue("return_date", "");
+                g_form.addErrorMessage("La fecha de fin de préstamo debe ser superior a la fecha de inicio.");
+            }
+        });
+    }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-08 07:16:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;46ab80251b4a461018398485604bcbd8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Validación fechas 2&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_46ab80251b4a461018398485604bcbd8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-08 07:20:34&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>340616167</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>2146418c1baa4a1062f8ea46624bcb6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcbb8310000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table/>
+<target_name>LPG Validación fechas 2</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>0d0b788092aa4a100848edd28c9445d6</update_guid>
+<update_guid_history>0d0b788092aa4a100848edd28c9445d6:340616167,36ecc865424a46109e89eb498df8136e:340616167,d5fb4825414a4610582f7c57dd448c1f:618009335</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_4651c0274778ca100aeaa144846d43ee</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;Grupo de asignación de sólo lectura cuando cuando el usuario pertenece a Causi o al Área técnica de informática y telecomunicaciones y se establece automáticamente el grupo de asignación.&lt;/messages&gt;&lt;name&gt;LPG Grupo asign sólo lectura- Causi Atic&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    
+    if (g_form.getValue("assignment_group") == "") {
+        if (g_user.hasRoleExactly('causi')) {
+            g_form.setValue("assignment_group", "b2d230a31b4fb11062f8ea46624bcb41");
+			g_form.setReadOnly("assignment_group", true); 
+        } else if (g_user.hasRoleExactly('atic')) {
+            g_form.setValue("assignment_group", "b2489e1b47d731500aeaa144846d4373");
+			g_form.setReadOnly("assignment_group", true); 
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-13 08:23:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4651c0274778ca100aeaa144846d43ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Grupo asign sólo lectura- Causi Atic&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_4651c0274778ca100aeaa144846d43ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-20 10:33:45&lt;/sys_updated_on&gt;&lt;table&gt;problem&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1659314984</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>2946418c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9880000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>problem</table>
+<target_name>LPG Grupo asign sólo lectura- Causi Atic</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>8ddabc80dcaa4a104ea3335c88c87a4f</update_guid>
+<update_guid_history>8ddabc80dcaa4a104ea3335c88c87a4f:1659314984,098c80b71fe94a10513354e99ef075ff:1659314984,65753d428021c210730c708712a896e3:522302683,08f78013c4554610c285bebfb742df0c:-604863845,a7717463353cca105913ab709622f4a5:656469619,a3b0d4a38ab8ca1004b66677612ee8d9:925918912,340844ab4b78ca10c23d43e747b7a156:656469619,0777c86b6778ca10579f4afd6d47f928:925918912,ffc288677178ca1035abbcdaf002f70b:656469619,87a208677a78ca10cb9fda3d6ca99959:-1335743601,a252c0671878ca105877208d7c04c97e:-65829937</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_f2552ca11bca461018398485604bcb57</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Ocultar listas relacionadas&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    if (g_user.hasRoleExactly('alumno') || g_user.hasRoleExactly('pdi')) {
+        g_form.hideRelatedList('alm_asset');
+        g_form.hideRelatedList('cmdb_m2m_model_component');
+        g_form.hideRelatedList('pc_vendor_cat_item');
+        g_form.hideRelatedList('sp_instance');
+		g_form.hideRelatedList('cmdb_hardware_model_lifecycle');
+		g_form.hideRelatedList('cmn_m2m_skill_model');
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-08 09:10:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f2552ca11bca461018398485604bcb57&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Ocultar listas relacionadas&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f2552ca11bca461018398485604bcb57&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-15 20:58:53&lt;/sys_updated_on&gt;&lt;table&gt;cmdb_hardware_product_model&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1282823684</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>2946c18c1baa4a1062f8ea46624bcb17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcafa4f0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>cmdb_hardware_product_model</table>
+<target_name>LPG Ocultar listas relacionadas</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>1ddabc80beaa4a1008f3c12ee13a7957</update_guid>
+<update_guid_history>1ddabc80beaa4a1008f3c12ee13a7957:1282823684,b15b473ff50ece10e5151ffeaa942756:1282823684,c5762ce15eca4610aa15b4fe25aa9c25:171719314,f346e8e1faca461009f26770f799e775:1237620244,2426a0e129ca4610a8fc60bae6e45a55:-1254867987</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_20038ffa1b11061018398485604bcb93</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;El edificio se establece automáticamente según la localización del activo y la localización debe ser una sala del centro o centros que se gestionan.&lt;/description&gt;&lt;field&gt;location&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Comprobar localización&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        if (g_form.getValue("install_status") == 6 &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+            g_form.setReadOnly("stockroom", true);
+            g_form.setReadOnly("location", true);
+        }
+        return;
+    }
+
+    if (g_form.getValue("install_status") != 6 &amp;&amp; g_form.getValue("install_status") != 9 &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+        var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+        ga.addParam("sysparm_name", "getBuilding");
+        ga.addParam("sysparm_location", newValue);
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            var building = obj.building;
+
+            if (building) {
+                var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+                ga.addParam("sysparm_name", "checkBuilding");
+                ga.addParam("sysparm_building", building);
+                ga.getXMLAnswer(function(response) {
+
+                    var obj = JSON.parse(response);
+                    var isValid = obj.isValid;
+                    if (isValid == false) {
+                        g_form.addErrorMessage("Debe seleccionar una sala dentro del centro que gestiona");
+                        g_form.setValue("location", "");
+                    }
+                });
+            } else {
+                g_form.setValue("location", "");
+                g_form.addErrorMessage("Debe seleccionar una sala dentro de un centro");
+            }
+        });
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 11:06:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;20038ffa1b11061018398485604bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Comprobar localización&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_20038ffa1b11061018398485604bcb93&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-10 07:36:23&lt;/sys_updated_on&gt;&lt;table&gt;alm_hardware&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1971567255</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>2d46418c1baa4a1062f8ea46624bcb6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9020000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_hardware</table>
+<target_name>LPG Comprobar localización</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>4dda3c8066aa4a10c66ac8b189f7db1a</update_guid>
+<update_guid_history>4dda3c8066aa4a10c66ac8b189f7db1a:1971567255,91048ce44ba982101c92458a37230502:1971567255,077bba4cb7e542108b2aae8be374dc38:-248603625,ec64de7b77d50210d5ce7a2647b62a6b:1195650440,0334de7bb2d50210cb65f614f681e739:-1218840191,09498093215546100850491e69917677:-938216901,8aa5af7ee091061048c4a98a03027844:-1308974251,3e642f3e8891061034a256eb818bd5b2:163573695,3554eb3e8f91061025e2a502e0128716:1684317235,21ea0ff2635106108b417a94bd4361a8:-414906095,ff948b7e301106105e5a457e4afcc1e7:-1745388164,fc24833e941106104ee91e4476fe251c:-771897543</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_8ae72145476806500aeaa144846d4392</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Grupo de asignación de sólo lectura cuando el nivel de escalado es el último.&lt;/description&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Grupo de asignación sólo lectura&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Comprobar si existe un siguiente nivel de escalado para el incidente
+    var ga = new GlideAjax('EscalateIncidentUtilsAjax');
+    ga.addParam('sysparm_name', 'esEscalable');
+    ga.addParam('sysparm_subcategoria', g_form.getValue("subcategory"));
+    ga.addParam('sysparm_nivel', g_form.getValue("u_nivel"));
+    ga.getXML(esEscalable);
+
+
+    function esEscalable(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+		
+        if (answer == "false") {
+            g_form.setReadOnly("assignment_group", false);
+        } else {
+            g_form.setReadOnly("assignment_group", true);
+        }
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 11:10:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8ae72145476806500aeaa144846d4392&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Grupo de asignación sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8ae72145476806500aeaa144846d4392&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:42:07&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>885358853</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>6146418c1baa4a1062f8ea46624bcb70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9e10000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>incident</table>
+<target_name>LPG Grupo de asignación sólo lectura</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>5ddabc80e9aa4a108f99b7b56a58d753</update_guid>
+<update_guid_history>5ddabc80e9aa4a108f99b7b56a58d753:885358853,b545f1825b21c21032ae9b55d9ed757a:885358853,3e443542e621c210b85626efada33e06:-1286536699,9c078c9fa61546104ef7b8f233220d96:1841388431,46b0bd4d4f680650f8fc7e265cdccff4:885110490,cb30b54da46806501a40e16accafc4d1:-182035409,4210314d68680650a9f21f42539d9ec6:1572000619,7cef650deb680650be2d074cd3156b6b:-229810629,d57d2989b7680650c98b2c1ec5ee2d5f:1623316429,863c6549b86806501ce00f102b71b20b:-866312529,f2492985a1680650a0cd3cc891bf2dbb:126134479,7119ad45d66806507a82092f37751811:534860803,11b86145fc68065028dc229ffbb0431b:491502551</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_422efa001b29421062f8ea46624bcbcb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Almacen Orden Transferencia&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   if (g_form.isNewRecord() &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+
+        var stockroom = "";
+        var ga = new GlideAjax("global.GetStockroomUtilsAjax");
+        ga.addParam("sysparm_name", "getStockroom");
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            stockroom = response;
+            if (stockroom) {
+                g_form.setValue("from_stockroom", obj.stockroom);
+                g_form.setReadOnly("from_stockroom", true);
+				
+            }
+        });
+
+    } 
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-09 07:53:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;422efa001b29421062f8ea46624bcbcb&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Almacen Orden Transferencia&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_422efa001b29421062f8ea46624bcbcb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-09 08:34:27&lt;/sys_updated_on&gt;&lt;table&gt;alm_transfer_order&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1297555620</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>6546418c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9670000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_transfer_order</table>
+<target_name>LPG Almacen Orden Transferencia</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>8dda3c80d6aa4a10482eab382544fd1e</update_guid>
+<update_guid_history>8dda3c80d6aa4a10482eab382544fd1e:-1297555620,42b74b48d1294210a7cd43520180076e:-1297555620,466e324009294210b6dd132e5384302a:1361102630</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_a3d55b011b46061018398485604bcb97</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Ocultar listas relacionadas&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    if (g_user.hasRoleExactly('alumno') || g_user.hasRoleExactly('pdi')) {
+        g_form.hideRelatedList('task_ci', true);
+        g_form.hideRelatedList('task_cmdb_ci_service', true);
+        g_form.hideRelatedList('sysapproval_approver', true);
+        g_form.hideRelatedList('change_task', true);
+        g_form.hideRelatedList('problem', true);
+        g_form.hideRelatedList('incident', true);
+        g_form.hideRelatedList('task_sla', true);
+        g_form.hideRelatedList('task_outage', true);
+        g_form.hideRelatedList('sys_relationship', true);
+        g_form.hideRelatedList('incident.caused_by', true);
+
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-07 08:44:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a3d55b011b46061018398485604bcb97&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Ocultar listas relacionadas&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a3d55b011b46061018398485604bcb97&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-15 20:58:43&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;1&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1638391850</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>6546c18c1baa4a1062f8ea46624bcb17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcafa280000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Ocultar listas relacionadas</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>d5dabc806eaa4a100f89390bf3b9a956</update_guid>
+<update_guid_history>d5dabc806eaa4a100f89390bf3b9a956:1638391850,134b473fe90ece101e6921a5c6be7362:1638391850,fce79f816a4606103671c20956bd719a:1826310688,aa375f419946061030903e2643bb0ffb:2031458773,2d761741d24606108afee39dc9bf2a48:-1765018719</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_132db58247090a100aeaa144846d43a8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;to_stockroom&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;El almacén de origen debe ser diferente del almacén de destino&lt;/messages&gt;&lt;name&gt;LPG Almacenes diferentes&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+    if (g_form.getValue("from_stockroom")==g_form.getValue("to_stockroom")){
+		g_form.setValue("to_stockroom","");
+		g_form.addErrorMessage("Los almacenes deben ser diferentes");
+   }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-21 11:46:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;132db58247090a100aeaa144846d43a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Almacenes diferentes&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_132db58247090a100aeaa144846d43a8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:50:04&lt;/sys_updated_on&gt;&lt;table&gt;alm_transfer_order&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1760823041</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>6946418c1baa4a1062f8ea46624bcb6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf8e10000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_transfer_order</table>
+<target_name>LPG Almacenes diferentes</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>09da3c80e7aa4a109646e68074e67b19</update_guid>
+<update_guid_history>09da3c80e7aa4a109646e68074e67b19:-1760823041,5617b5c29121c21026eac18aa7473cbf:-1760823041,e0584c1356554610e14ff6893cd8d354:402451711,aa6dbd8254090a10f523c9d0ba785e0c:-1733023367</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_2eb2c8001b5d4e1062f8ea46624bcbf2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;El activo se devolver en el almacén de destino de la unidad técnica.&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Almacén destino de la unidad téc.&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var ga = new GlideAjax('sn_hamp.GetReturnStockroomUtilsAjax'); //Scriptinclude
+    ga.addParam('sysparm_name', 'getReturnStockroom'); //Method
+    ga.addParam('sysparm_asset', g_form.getValue("loaner_order.asset")); //Parameters
+    ga.getXMLAnswer(getResponse);
+	g_form.addInfoMessage(ga.responseXML);
+
+}
+
+function getResponse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    g_form.addInfoMessage(answer);
+    g_form.setValue('location', answer);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-27 08:07:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2eb2c8001b5d4e1062f8ea46624bcbf2&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Almacén destino de la unidad téc.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2eb2c8001b5d4e1062f8ea46624bcbf2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 10:55:05&lt;/sys_updated_on&gt;&lt;table&gt;sn_hamp_loaner_asset_task&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>115077373</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>a146418c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9450000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>sn_hamp_loaner_asset_task</table>
+<target_name>LPG Almacén destino de la unidad téc.</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>49da3c8093aa4a10c745667238a6341d</update_guid>
+<update_guid_history>49da3c8093aa4a10c745667238a6341d:115077373,3c2bc017fc554610449f100d200c5e35:115077373,e2a71884659d4e1072fd3d321fe09531:1431985895,33875084b79d4e10d26475d37b84e0c8:236242111,8a079c44cc9d4e106830f495cf954256:-1882865482,abe65c443e9d4e10f6cfeb139de49b07:1662256076,7a25d004599d4e10174ed029a22f0b6d:-79091682,21431080a49d4e10b7f3267c513daaab:124233591,4431d4004c9d4e109c244a0b68cd0df7:608275621,3620d0cc8a5d4e1080f826cd509e1fa1:-1186870185,1cff00cc8d5d4e10ef3634d6c5612d8d:-1493704347,85df0c8cd15d4e1049e13457d24e7ed3:1147856488,d3af048c9c5d4e1062885b997c4f53ea:1978863173,834d440cf15d4e106b1db5de11c0823e:1916623148,ee8cc0c8625d4e10353765bba8b47c05:-187053834,11f44cc0b35d4e1075a68b046fedcc4b:70519800</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_9b9a23f21bd1061018398485604bcb20</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;El almacén del activo depende de la unidad técnica del usuario&lt;/description&gt;&lt;field&gt;install_status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG El almacén depende de la unidad téc.&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue == 6 &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+
+        var stockroom = "";
+        var ga = new GlideAjax("global.GetStockroomUtilsAjax");
+        ga.addParam("sysparm_name", "getStockroom");
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            stockroom = response;
+            if (stockroom) {
+                g_form.setValue("stockroom", obj.stockroom);
+                g_form.setReadOnly("stockroom", true);
+                g_form.setReadOnly("location", true);
+            }
+        });
+
+    } else if (newValue == 6 &amp;&amp; g_user.hasRoleExactly('unidad_tecnica_central')){
+		g_form.setReadOnly("location", true);
+	} else {
+        g_form.setReadOnly("stockroom", false);
+        g_form.setReadOnly("location", false);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 13:54:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9b9a23f21bd1061018398485604bcb20&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG El almacén depende de la unidad téc.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9b9a23f21bd1061018398485604bcb20&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 10:47:04&lt;/sys_updated_on&gt;&lt;table&gt;alm_consumable&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-103647863</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>a146c18c1baa4a1062f8ea46624bcb17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcafa090000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_consumable</table>
+<target_name>LPG El almacén depende de la unidad téc.</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>91dabc802daa4a10ed2b6c5d42989a55</update_guid>
+<update_guid_history>91dabc802daa4a10ed2b6c5d42989a55:-103647863,d7490493b655461083c998f20dabb065:-103647863,7cd80c5308554610151adc0f17fa214a:-1912928103,37ba6bf246d10610d1821d9d2cec552a:-2056974602,9f9a23f24bd106100bdee42ccf37a922:1770092177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_03ffb7d01ba9821062f8ea46624bcb88</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;El edificio se establece automáticamente según la localización del activo y la localización debe ser una sala del centro o centros que se gestionan.&lt;/description&gt;&lt;field&gt;location&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Comprobar localización&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        g_form.setReadOnly("stockroom", true);
+        g_form.setReadOnly("location", true);
+        return;
+    }
+
+    if (g_form.getValue("install_status") != 6 &amp;&amp; g_form.getValue("install_status") != 9 &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+        var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+        ga.addParam("sysparm_name", "getBuilding");
+        ga.addParam("sysparm_location", newValue);
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            var building = obj.building;
+
+            if (building) {
+                var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+                ga.addParam("sysparm_name", "checkBuilding");
+                ga.addParam("sysparm_building", building);
+                ga.getXMLAnswer(function(response) {
+
+                    var obj = JSON.parse(response);
+                    var isValid = obj.isValid;
+                    if (isValid == false) {
+                        g_form.addErrorMessage("Debe seleccionar una sala dentro del centro que gestiona");
+                        g_form.setValue("location", "");
+                    }
+                });
+            } else {
+                g_form.setValue("location", "");
+                g_form.addErrorMessage("Debe seleccionar una sala dentro de un centro");
+            }
+        });
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-10 07:18:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;03ffb7d01ba9821062f8ea46624bcb88&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Comprobar localización&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_03ffb7d01ba9821062f8ea46624bcb88&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-10 07:36:19&lt;/sys_updated_on&gt;&lt;table&gt;alm_consumable&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>269565132</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>a546418c1baa4a1062f8ea46624bcb6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf8b40000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_consumable</table>
+<target_name>LPG Comprobar localización</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>c1da3c80caaa4a10a90c07a498a63a18</update_guid>
+<update_guid_history>c1da3c80caaa4a10a90c07a498a63a18:269565132,9c04c8e44aa98210907cdbd04e0e31cc:269565132,07fff7d033a98210de2173f363e33020:906814333</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_555c23761bd1061018398485604bcb02</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;El almacén de la licencia software depende de la unidad técnica del usuario&lt;/description&gt;&lt;field&gt;install_status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG El almacén depende de la unidad téc.&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue == 6 &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+
+        var stockroom = "";
+        var ga = new GlideAjax("global.GetStockroomUtilsAjax");
+        ga.addParam("sysparm_name", "getStockroom");
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            stockroom = response;
+            if (stockroom) {
+                g_form.setValue("stockroom", obj.stockroom);
+                g_form.setReadOnly("stockroom", true);
+                g_form.setReadOnly("location", true);
+            }
+        });
+
+    } else if (newValue == 6 &amp;&amp; g_user.hasRoleExactly('unidad_tecnica_central')){
+		g_form.setReadOnly("stockroom", false);
+		g_form.setReadOnly("location", true);
+	} else {
+        g_form.setReadOnly("stockroom", false);
+        g_form.setReadOnly("location", false);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 14:02:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;555c23761bd1061018398485604bcb02&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG El almacén depende de la unidad téc.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_555c23761bd1061018398485604bcb02&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-10 07:39:49&lt;/sys_updated_on&gt;&lt;table&gt;alm_license&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1877148611</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>ad46418c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9c30000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_license</table>
+<target_name>LPG El almacén depende de la unidad téc.</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>19dabc8086aa4a10d21cbbbbb9cd1152</update_guid>
+<update_guid_history>19dabc8086aa4a10d21cbbbbb9cd1152:-1877148611,57c4c4287ca98210b910dfd0602916e2:-1877148611,2d490493bc554610c61d8740dc9f7218:-562471485,0dc8c853b855461045bde81de06ac2d4:-43753901,d37c6b768dd10610496a8e3c454bad08:1677973488,115ce7763dd10610af7aa777c85bac35:-2056974602</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_d2aa4ca11b4a461018398485604bcb11</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Préstamo de ordenador"&gt;4ea61681470506100aeaa144846d43bd&lt;/cat_item&gt;&lt;cat_variable&gt;IO:9ea65681470506100aeaa144846d4332&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Validación fechas 1&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var startDate = newValue;
+
+    var ga = new GlideAjax("global.ValidateFechasUtilsAjax");
+    ga.addParam("sysparm_name", "checkStartDate");
+    ga.addParam("sysparm_startDate", startDate);
+    ga.getXMLAnswer(function(response) {
+        var obj = JSON.parse(response);
+        
+        if (obj.valid == false) {
+            g_form.setValue("start_date", "");
+            g_form.setValue("return_date", "");
+            g_form.addErrorMessage("La fecha de inicio tiene que ser posterior a hoy.");
+        }
+    });
+
+    if (g_form.getValue("return_date") != "") {
+        var endDate = g_form.getValue("return_date");
+        ga = new GlideAjax("global.ValidateFechasUtilsAjax");
+        ga.addParam("sysparm_name", "checkDates");
+        ga.addParam("sysparm_startDate", startDate);
+        ga.addParam("sysparm_returnDate", endDate);
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            
+            if (obj.valid == false) {
+                g_form.setValue("start_date", "");
+                g_form.setValue("return_date", "");
+                g_form.addErrorMessage("La fecha de fin de préstamo debe ser superior a la fecha de inicio.");
+            }
+        });
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-08 07:13:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d2aa4ca11b4a461018398485604bcb11&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Validación fechas 1&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_d2aa4ca11b4a461018398485604bcb11&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-08 07:20:02&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1928954753</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>e146418c1baa4a1062f8ea46624bcb6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcbb8800000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table/>
+<target_name>LPG Validación fechas 1</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>8d0b30c0faaa4a10d3fb305a5c928598</update_guid>
+<update_guid_history>8d0b30c0faaa4a10d3fb305a5c928598:-1928954753,03cc8065474a46102d1a8dbd4c079970:-1928954753,446b0ce1634a461022983cb29dd969ed:-1224194431,ca5b0ce1b74a46109d0fec822f177c1a:272846526,1c4b88e1594a46100bfb4a3b7c4f6964:-469291584</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_5146ebbe1b91061018398485604bcbac</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;El edificio se establece automáticamente según la localización del activo y la localización debe ser una sala del centro o centros que se gestionan.&lt;/description&gt;&lt;field&gt;location&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Comprobar localización&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        g_form.setReadOnly("stockroom", true);
+        g_form.setReadOnly("location", true);
+        return;
+    }
+
+    if (g_form.getValue("install_status") != 6 &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+        var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+        ga.addParam("sysparm_name", "getBuilding");
+        ga.addParam("sysparm_location", newValue);
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            var building = obj.building;
+
+            if (building) {
+                var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+                ga.addParam("sysparm_name", "checkBuilding");
+                ga.addParam("sysparm_building", building);
+                ga.getXMLAnswer(function(response) {
+
+                    var obj = JSON.parse(response);
+                    var isValid = obj.isValid;
+                    if (isValid == false) {
+                        g_form.addErrorMessage("Debe seleccionar una sala dentro del centro que gestiona");
+                        g_form.setValue("location", "");
+                    }
+                });
+            } else {
+                g_form.setValue("location", "");
+                g_form.addErrorMessage("Debe seleccionar una sala dentro de un centro");
+            }
+        });
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 13:35:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5146ebbe1b91061018398485604bcbac&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Comprobar localización&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_5146ebbe1b91061018398485604bcbac&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-10 07:34:49&lt;/sys_updated_on&gt;&lt;table&gt;alm_license&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1012680503</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>e946418c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9a00000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_license</table>
+<target_name>LPG Comprobar localización</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>d1dabc800daa4a10ca1fbc0514101a51</update_guid>
+<update_guid_history>d1dabc800daa4a10ca1fbc0514101a51:-1012680503,06a304e45fa98210257abc6e2fe99fd0:-1012680503,142008e084a982108e790c8aca3bc145:759998665,afefb7d038a9821099daa44193cb0f4b:906814333,415944936f554610914ddb91c65e9e37:-1991817184,fa2980934e554610f8256eae7a232c70:106658154,f618effe7b91061090274f3a3fbe36f0:-1807344966,dd46efbe7f910610eb8da92c048d2e2e:-1308974251</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_fcaaa2721bddc21018398485604bcb00</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;El edificio se establece automáticamente según la localización del elemento de configuración y la localización debe ser una sala del centro o centros que se gestionan.&lt;/description&gt;&lt;field&gt;location&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;LPG Comprobar ubicación&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue != "53e3a8e74747f1100aeaa144846d438a") {
+        var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+        ga.addParam("sysparm_name", "getBuilding");
+        ga.addParam("sysparm_location", newValue);
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            var building = obj.building;
+
+            if (building) {
+                g_form.setValue("u_edificio", obj.building);
+                var ga = new GlideAjax("global.GetBuildingUtilsAjax");
+                ga.addParam("sysparm_name", "checkBuilding");
+                ga.addParam("sysparm_building", building);
+                ga.getXMLAnswer(function(response) {
+
+                    var obj = JSON.parse(response);
+                    var isValid = obj.isValid;
+                    if (isValid == false) {
+                        g_form.addErrorMessage("Debe seleccionar una sala dentro del centro que gestiona");
+                        g_form.setValue("location", "");
+                        g_form.setValue("u_edificio", "");
+                    }
+                });
+            } else {
+                g_form.setValue("location", "");
+                g_form.setValue("u_edificio", "");
+                g_form.addErrorMessage("Debe seleccionar una sala dentro de un centro");
+            }
+        });
+    }
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 09:17:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fcaaa2721bddc21018398485604bcb00&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Comprobar ubicación&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fcaaa2721bddc21018398485604bcb00&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-16 07:24:47&lt;/sys_updated_on&gt;&lt;table&gt;cmdb_ci&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1169752711</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>e946c18c1baa4a1062f8ea46624bcb17</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcafa760000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>cmdb_ci</table>
+<target_name>LPG Comprobar ubicación</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>51dabc80f4aa4a10d1019d0635113259</update_guid>
+<update_guid_history>51dabc80f4aa4a10d1019d0635113259:1169752711,129ad944ec960250f458191428cf64a9:1169752711,c4b53d426321c21092a7d3cd0ddef0e9:817022660,d3f90c93985546101ad57ae9f0dce35d:1295783274,3872cfba2d110610f808d5821d2dfbeb:118363333,34424fba40110610c3c2531b53513f1c:-436492506,bc8143ba451106103c7ca24f0b343b61:987752958,b741cb7aa11106104e04d02caaa0d315:-1753335218,f7014b7a47110610805e7a951c9c7444:-479577056,17204b3a9e110610878f3772c2b49cb8:-159112005,c8ecf27611110610a99439adf580f9e3:1920668422,b27c3e36e1110610126cd4c185d39c4b:-1725764286,3f4c7a368611061031ff3c9a7b8601bc:497092144,6f2cf2363e1106103239406f765c4c9e:-136612516,a4ebbef274110610430344e0c5281d9e:-988454155,01797a722d110610ae0d58d84fd6ba95:941910073,4bd7befeedddc21026674c4f9e38be9f:42820683,94f03a3aadddc210257b2ab49000babd:-217490322,07903ef600ddc210eb4e3076402bcb37:923237915,69403af693ddc210bef1eb5698487e3f:432010923,77ff26f6c0ddc210f78059b1094e4e74:-846653479,19cfaeb629ddc2103dc45eb26184a99a:-2108417673,268f2ab6e3ddc210141dcbfeed506549:-452892081,b23fa6b63fddc21038f002d1f79bfc37:533897253,ee7ba2b2f0ddc210e348ac00f963b14f:-1495461392,5a3baa723cddc210fa1554037a727273:-420309303</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_21727aea1b55c65062f8ea46624bcba8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;install_status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;El almacén del activo depende de la unidad técnica del usuario&lt;/messages&gt;&lt;name&gt;LPG El almacén depende de la unidad téc.&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue == 6 &amp;&amp; !g_user.hasRoleExactly('unidad_tecnica_central')) {
+
+        var stockroom = "";
+        var ga = new GlideAjax("global.GetStockroomUtilsAjax");
+        ga.addParam("sysparm_name", "getStockroom");
+        ga.getXMLAnswer(function(response) {
+            var obj = JSON.parse(response);
+            stockroom = response;
+            if (stockroom) {
+                g_form.setValue("stockroom", obj.stockroom);
+                g_form.setReadOnly("stockroom", true);
+                g_form.setReadOnly("location", true);
+            }
+        });
+
+    } else if (newValue == 6 &amp;&amp; g_user.hasRoleExactly('unidad_tecnica_central')){
+		g_form.setReadOnly("location", true);
+	} else {
+        g_form.setReadOnly("stockroom", false);
+        g_form.setReadOnly("location", false);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 15:11:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;21727aea1b55c65062f8ea46624bcba8&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG El almacén depende de la unidad téc.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_21727aea1b55c65062f8ea46624bcba8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 10:43:44&lt;/sys_updated_on&gt;&lt;table&gt;alm_hardware&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2038398196</payload_hash>
+<remote_update_set display_value="LPG Scripts de cliente">2d46418c1baa4a1062f8ea46624bcb6d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:41</sys_created_on>
+<sys_id>ed46418c1baa4a1062f8ea46624bcb6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfcaf9230000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:41</sys_updated_on>
+<table>alm_hardware</table>
+<target_name>LPG El almacén depende de la unidad téc.</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>81da3c8092aa4a10af21f7be103de01c</update_guid>
+<update_guid_history>81da3c8092aa4a10af21f7be103de01c:2038398196,e6884c13a75546104b4c85dc80bf7959:2038398196,a8a3223ac09dc210f96ba8abac46a178:1770092177,f43366f6d39dc21010e2c2e8ba6162a4:-704015848,3003eeb6d39dc210a80bdcc236d55465:1943160078,c642ea76b59dc2104b5a95def9f0a962:-505052835,fd81ea36de9dc210693a996852cbe68d:346731263,0401eef29c9dc2102de635725e63ff3b:696896744,61002ab2c99dc2101ed5e002acbf4328:-1252161889,bc5c167e935dc210d8e7c187d4f2ce95:1525471422,2e1cde3eca5dc2100d24139bdb291a24:216708711,33195ef6aa5dc210346258efdc44c248:-659254112,a2f8daf6b55dc210575fcbfaae6cac52:-289822243,1b769276c35dc210663c07189206c7d9:-479665797,41659eb2645dc210c5fe5faf2f7de428:-983976620,ba251af2045dc210cf3787593be99ff5:-282295212,34927aea9655c650b58d5ae0b44eb2ca:-957312167</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
