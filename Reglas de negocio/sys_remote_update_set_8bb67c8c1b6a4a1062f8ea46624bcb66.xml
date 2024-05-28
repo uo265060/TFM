@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 15:03:48">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Update sets con todas las reglas de negocio del TFM</description>
+<inserted/>
+<name>LPG Reglas de negocio</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>f624700c1b6a4a1062f8ea46624bcb2d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>8bb67c8c1b6a4a1062f8ea46624bcb66</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_255670b94781c6100aeaa144846d43c9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;cmdb_ci&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin") &lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG cmdb_ci query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.addQuery("location","Asturias").addOrCondition("asset.asset_function","loaner").addOrCondition("location.state","Asturias");
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-20 12:03:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;255670b94781c6100aeaa144846d43c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG cmdb_ci query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_255670b94781c6100aeaa144846d43c9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-16 15:46:54&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=255670b94781c6100aeaa144846d43c9"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;255670b94781c6100aeaa144846d43c9&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:25:17&lt;/sys_created_on&gt;&lt;sys_id&gt;57025cdb1b55461018398485604bcb57&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:25:17&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-274279184</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>03b67c8c1b6a4a1062f8ea46624bcb68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb913430000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>cmdb_ci</table>
+<target_name>LPG cmdb_ci query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3e56b48cf26a4a10002ff8f02606c46a</update_guid>
+<update_guid_history>3e56b48cf26a4a10002ff8f02606c46a:-274279184,19dd286e1ce90610fab2015bd33dacab:-274279184,086513c99ca546106d427a14c6f3a931:-1204285659,db1f4b05b0a546104ebdf73fc9d359a3:-274279184,9f025cdbc2554610ee016b8fd3e06b58:1096210004,aee8787d3f81c6102e126cce119d3cab:833588311,24c7f03d4781c6104ce97a786d4a7575:-2010685369</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8b388caa1b0e4a1018398485604bcb46</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; (gs.hasRole("causi") || gs.hasRole("atic"))&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG change_request query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if (gs.hasRole("causi") || gs.hasRole("atic")) {
+        var u = gs.getUserID();
+        var groups = new GlideRecord("sys_user_grmember");
+        groups.addQuery("user", u);
+        groups.query();
+
+        var qry = current.addQuery("assigned_to", u);
+
+        while (groups.next()) {
+            qry.addOrCondition("assignment_group", groups.group);
+        }
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 09:35:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8b388caa1b0e4a1018398485604bcb46&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG change_request query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8b388caa1b0e4a1018398485604bcb46&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-11 09:35:38&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8b388caa1b0e4a1018398485604bcb46"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1084322663</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>03b67c8c1b6a4a1062f8ea46624bcb6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb916750000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG change_request query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>4356b48cb46a4a10a13f8cc0a8198685</update_guid>
+<update_guid_history>4356b48cb46a4a10a13f8cc0a8198685:-1084322663,de98c4ea4c0e4a100c881e3e6bec5177:-1084322663</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_75e1f9a91b02861018398485604bcb7d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;stateCHANGESTO6^EQ&lt;item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="6"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Mensaje al resolver incidente&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.comments = "El incidente se ha resuelto.";
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-08 14:46:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;75e1f9a91b02861018398485604bcb7d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Mensaje al resolver incidente&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_75e1f9a91b02861018398485604bcb7d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-08 14:52:15&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=75e1f9a91b02861018398485604bcb7d"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1250496422</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>07b67c8c1b6a4a1062f8ea46624bcb6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb915310000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>incident</table>
+<target_name>LPG Mensaje al resolver incidente</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>be56b48ca06a4a1016284b5e9d63377d</update_guid>
+<update_guid_history>be56b48ca06a4a1016284b5e9d63377d:-1250496422,0744f56d490286100e7175fcdd782650:-1250496422,7e23fde943028610bab566f0abaaf009:153964275,b1037de930028610b08e7ac5771c77bf:1263196949</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_54c27b6a47c1ca100aeaa144846d43a0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;task&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; (gs.hasRole("causi") || gs.hasRole("atic"))&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG task query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.hasRole("causi") || gs.hasRole("atic")) {
+        var u = gs.getUserID();
+        var groups = new GlideRecord("sys_user_grmember");
+        groups.addQuery("user", u);
+        groups.query();
+
+        var qry = current.addQuery("assigned_to", u);
+
+        while (groups.next()) {
+            qry.addOrCondition("assignment_group", groups.group);
+        }
+    }
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-23 09:38:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;54c27b6a47c1ca100aeaa144846d43a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG task query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_54c27b6a47c1ca100aeaa144846d43a0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-11 07:08:21&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=54c27b6a47c1ca100aeaa144846d43a0"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;54c27b6a47c1ca100aeaa144846d43a0&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:23:52&lt;/sys_created_on&gt;&lt;sys_id&gt;a2b154db1b55461018398485604bcb60&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:23:52&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2113884566</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>0bb67c8c1b6a4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb914ab0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>task</table>
+<target_name>LPG task query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>be56b48c896a4a108d007b4d6ba2f677</update_guid>
+<update_guid_history>be56b48c896a4a108d007b4d6ba2f677:2113884566,e0370570d36dc210224d78555baa24fb:2113884566,eab154db3055461046744d7fdbfc4461:2100776903,474388fa5105ca10dc612615b01d2af5:-766294885,9b3348fae005ca108233df94679e95ed:1928884650,d8428cba5b05ca100a8932d1bdec0b0c:1745048230,64f0847a7805ca10d85a929b87769f67:588007765,4310c43a2c05ca1065beebc61f63c653:1745048230,a27fbbe64605ca10cbd7737854224ad9:588007765,60aefba6b505ca10713b31d1eaec22fd:-2032487641,678e7ba6cd05ca1057499620e87c8387:-669376424,4f6e33a68105ca10d195f76925a41aa5:-2032487641,0df33faaf5c1ca10ca7ebaf11b686893:-669376424,5cb3fbaa57c1ca103140e3b9880abaea:-2007612453,9a633f6a6cc1ca10985d3cf4ab4d0983:-1868151988</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_e890790647c50a100aeaa144846d43b9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;alm_transfer_order&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; gs.hasRole("unidad_tecnica")&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG transfer orders query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var user = gs.getUser();
+
+    if (user.isMemberOf("Unidad técnica de la escuela de Ingeniería Informática")) {
+        var location = new GlideRecord("sn_wsd_core_building");
+        location.get("name", "Escuela de Ingeniería Informática");
+        current.addQuery("from_location", location.getUniqueValue()).addOrCondition("to_location",location.getUniqueValue());
+    } else if (user.isMemberOf("Unidad técnica de la facultad de Biología")) {
+        location = new GlideRecord("sn_wsd_core_building");
+        location.get("name", "Facultad de Biología");
+        current.addQuery("from_location", location.getUniqueValue()).addOrCondition("to_location",location.getUniqueValue());
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-21 10:51:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e890790647c50a100aeaa144846d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG transfer orders query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e890790647c50a100aeaa144846d43b9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:16:35&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e890790647c50a100aeaa144846d43b9"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;e890790647c50a100aeaa144846d43b9&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:16:35&lt;/sys_created_on&gt;&lt;sys_id&gt;0010945b1b55461018398485604bcb9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:16:35&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1596458405</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>0bb67c8c1b6a4a1062f8ea46624bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb917ed0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>alm_transfer_order</table>
+<target_name>LPG transfer orders query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>4f56b48cec6a4a106ad1bb477a3c4691</update_guid>
+<update_guid_history>4f56b48cec6a4a106ad1bb477a3c4691:-1596458405,4810945b2f55461022ba1ff39e3d3ea0:-1596458405,7cb688322545ca1081f51155f4330d0c:-859246552,c9017906e1c50a10e2549fc8f39bdbac:-1141548943,b3e03146c9c50a101908f98358af1832:1968142138</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_44daab961b8a4a1018398485604bcb94</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=mantenimientodehardware^ORcategory=seguridad^EQ&lt;item display_value="Mantenimiento de hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="mantenimientodehardware"/&gt;&lt;item display_value="Seguridad" endquery="false" field="category" goto="false" newquery="false" operator="=" or="true" value="seguridad"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG M Hardware o Seguridad CIs afectados&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if (current.cmdb_ci.nil()) {
+        // Añadir todos los ordenadores del aula a CIs afectados.
+        var gr = new GlideRecord("cmdb_ci");
+        gr.addQuery("location", current.location);
+        gr.query();
+
+        while (gr.next()) {
+            var gt = new GlideRecord("task_ci");
+            gt.initialize();
+            gt.ci_item = gr.sys_id;
+            gt.task = current.sys_id;
+            gt.insert();
+        }
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 07:27:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;44daab961b8a4a1018398485604bcb94&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG M Hardware o Seguridad CIs afectados&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_44daab961b8a4a1018398485604bcb94&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-21 08:36:32&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=44daab961b8a4a1018398485604bcb94"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>623952436</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>0fb67c8c1b6a4a1062f8ea46624bcb68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb913fd0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG M Hardware o Seguridad CIs afectados</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>f656b48cba6a4a10dc743a4629cf7e71</update_guid>
+<update_guid_history>f656b48cba6a4a10dc743a4629cf7e71:623952436,96fa57211e9242109aee4b6480273391:623952436,ce4beb96bf8a4a10e9ff6ec7fe18f952:2063120622</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_cbba1cf71b2d4a1018398485604bcb32</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;subcategory=salasdeinformatica^EQ&lt;item display_value="Salas de informática" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="salasdeinformatica"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Ordenador prestado CIs afectados&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (current.cmdb_ci.nil()) {
+        // Añadir todos los ordenadores del aula a CIs afectados.
+        var gr = new GlideRecord("cmdb_ci");
+        gr.addQuery("location", current.location);
+        gr.query();
+
+        while (gr.next()) {
+            var gt = new GlideRecord("task_ci");
+            gt.initialize();
+            gt.ci_item = gr.sys_id;
+            gt.task = current.sys_id;
+            gt.insert();
+        }
+    }
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-20 11:37:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cbba1cf71b2d4a1018398485604bcb32&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Ordenador prestado CIs afectados&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_cbba1cf71b2d4a1018398485604bcb32&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-08 09:57:01&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cbba1cf71b2d4a1018398485604bcb32"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1941255374</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>0fb67c8c1b6a4a1062f8ea46624bcb6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb917270000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>incident</table>
+<target_name>LPG Ordenador prestado CIs afectados</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>4356b48cc76a4a10428d067c7be8938b</update_guid>
+<update_guid_history>4356b48cc76a4a10428d067c7be8938b:-1941255374,aab030217a0e461042db3d805bd58432:-1941255374,488ea0ad48ca46103a8e2851c2de3608:198239550,8c3e2c6d09ca4610b2e34205ea5a1036:-563822648,75dbac69bcca4610a86774007eed4c93:-1923366547,638aa069d6ca461089160ca1a30cefbc:-773465476,a0a0a17356618a1098a42dd659d4f1c9:1941682795,ec7cbcbbc4ad4a10bd0459bcfff6eb95:-77060396,c03cf0bb84ad4a103f07d21b23ce5959:938324277,ddbb70bb89ad4a107826e192dd6a7a14:-467389665,2c2b747b3bad4a106d9c991a06c60e4a:918151129,aa4af43b06ad4a1047cab3d4298f459c:1441119344,571a343b70ad4a106e30db7608afac37:227941028,9d0b103b4e2d4a1000d6b8d2ff6b3384:-1130761714</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_6636c791474946100aeaa144846d43b0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;cmdb_ci&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="cmdb_ci"&gt;locationISNOTEMPTY^EQ&lt;item endquery="false" field="location" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Location and building&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	current.setValue("u_edificio",current.location.building);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-19 09:10:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6636c791474946100aeaa144846d43b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Location and building&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_6636c791474946100aeaa144846d43b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:26:09&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6636c791474946100aeaa144846d43b0"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;6636c791474946100aeaa144846d43b0&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:26:10&lt;/sys_created_on&gt;&lt;sys_id&gt;18429cdb1b55461018398485604bcbfe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:26:10&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1804067215</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>43b67c8c1b6a4a1062f8ea46624bcb6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb915140000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>cmdb_ci</table>
+<target_name>LPG Location and building</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>f656b48c1c6a4a10cab9adffbf0e647c</update_guid>
+<update_guid_history>f656b48c1c6a4a10cab9adffbf0e647c:-1804067215,5042dcdb43554610e3c2782f7ca04700:-1804067215,f9d60bd1d5494610ad9a3eecb5d2b128:351035955,6fa683d150494610e58afb9b290cb801:1309770407</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_fdd7698a47850a100aeaa144846d43f1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sn_hamp_loaner_asset_order&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; gs.hasRole("unidad_tecnica")&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG loaner asset orders query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var user = gs.getUser();
+	
+    if (user.isMemberOf("Unidad técnica de la escuela de Ingeniería Informática")) {
+        var location = new GlideRecord("sn_wsd_core_building");
+        location.get("name", "Escuela de Ingeniería Informática");
+        current.addQuery("location", location.getUniqueValue());
+    } else if (user.isMemberOf("Unidad técnica de la facultad de Biología")) {
+        location = new GlideRecord("sn_wsd_core_building");
+        location.get("name", "Facultad de Biología");
+        current.addQuery("location", location.getUniqueValue());
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-21 10:12:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fdd7698a47850a100aeaa144846d43f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG loaner asset orders query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fdd7698a47850a100aeaa144846d43f1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:13:05&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=fdd7698a47850a100aeaa144846d43f1"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;fdd7698a47850a100aeaa144846d43f1&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:13:05&lt;/sys_created_on&gt;&lt;sys_id&gt;204f44d71b55461018398485604bcb07&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:13:05&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1312720679</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>43b67c8c1b6a4a1062f8ea46624bcb6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb918790000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>sn_hamp_loaner_asset_order</table>
+<target_name>LPG loaner asset orders query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>0356b48c016a4a10c4805aaf9fc3cf97</update_guid>
+<update_guid_history>0356b48c016a4a10c4805aaf9fc3cf97:1312720679,204f4c1b8c5546109de5472e1bb98e2e:1312720679,52c6cc328445ca10c7317daeb23aeb6a:127034116,6094761aac4d4a10b494b4752ecf4272:591681463,4484f21a824d4a102aca2ec6ef06ae19:-119792649,b3f336d68f4d4a108efeeca3f210d1ce:-1973141131,c00f258247c50a101d7a50f357e8f141:-932857086,f8e8e9ca97850a101893ee4ba173b8cf:1142223471,fbf72d8a23850a10beacae96a56589c4:-1425377621</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_52a8f6de474d4a100aeaa144846d439d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;asset_task&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; gs.hasRole("unidad_tecnica") &amp;amp;&amp;amp; !gs.hasRole("unidad_tecnica_central")&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG asset tasks query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var u = gs.getUserID();
+	var groupsArray = gs.getUser().getMyGroups();
+	
+	current.addQuery("assigned_to",u).addOrCondition("assignment_group","IN",groupsArray);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 10:46:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;52a8f6de474d4a100aeaa144846d439d&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG asset tasks query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_52a8f6de474d4a100aeaa144846d439d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-08 10:41:07&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=52a8f6de474d4a100aeaa144846d439d"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;52a8f6de474d4a100aeaa144846d439d&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:17:01&lt;/sys_created_on&gt;&lt;sys_id&gt;d2201c5b1b55461018398485604bcb86&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:17:01&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>144593767</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>47b67c8c1b6a4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb914800000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>asset_task</table>
+<target_name>LPG asset tasks query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>f256b48ce66a4a10bebdc246cac40376</update_guid>
+<update_guid_history>f256b48ce66a4a10bebdc246cac40376:144593767,802b1a731f1902108de4a1eb8a357910:144593767,3bd631fb0b55021041f547ad6a19c535:-1874555822,51d6fdbb1b550210b83acde3a33be766:-1671205213,9b82fdb759550210a6402c644d45a62b:47518867,0e723db7f955021037c1eb34f8fc00fd:-1592716478,11b1797711550210f7dfb058691e0fda:47518867,12205c5bf95546103e40040918c2831d:-1592716478,06760832b445ca1021220a79c5b0a4ce:1976859374,2317efea4a81ca102987f1dfcff11f60:-156876271,68072fea1181ca10f5176982e41ca235:662407648,9b3a0312f4018a10daf797443f7cf06c:-156876271,513dbad6008d4a103b4e7238a78c7529:662407648,663a7e52b58d4a10ccca9743de6b4064:-156876271,1259f212358d4a100e9a8a6574481f3f:2079336960</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_e4b5f9e21b91c65062f8ea46624bcb78</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;alm_asset&lt;/collection&gt;&lt;condition&gt;gs.getUser().hasRole("unidad_tecnica")&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="alm_asset"&gt;install_status!=6^assigned_toISEMPTY^EQ&lt;item display_value="In stock" endquery="false" field="install_status" goto="false" newquery="false" operator="!=" or="false" value="6"/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Comprobar ubicación&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.getUser().isMemberOf("Unidad técnica de la escuela de Ingeniería Informática")) {
+        var group = new GlideRecord("sys_user_group");
+        group.addQuery("name", "Unidad técnica de la escuela de Ingeniería Informática");
+        group.query();
+
+        if (group.next()) {
+            if (current.install_status != 6 &amp;&amp; current.install_status != 11 &amp;&amp; current.install_status != 9) {
+                if (group.u_edificio.name != current.location.building.name) {
+                    gs.addErrorMessage('Debe seleccionar ubicaciones dentro de la Escuela de Ingeniería Informática');
+                    current.setAbortAction(true);
+                }
+            }
+
+        }
+
+
+    } else if (gs.getUser().isMemberOf("Unidad técnica de la facultad de Biología")) {
+        var group = new GlideRecord("sys_user_group");
+        group.addQuery("name", "Unidad técnica de la facultad de Biología");
+        group.query();
+
+        if (group.next()) {
+            if (current.install_status != 6 &amp;&amp; current.install_status != 11 &amp;&amp; current.install_status != 9) {
+                if (group.u_edificio.name != current.location.building.name) {
+                    gs.addErrorMessage('Debe seleccionar ubicaciones dentro de la Facultad de Biología');
+                    current.setAbortAction(true);
+                }
+            }
+        }
+
+    } else {
+		
+        if (current.install_status != 6 &amp;&amp; current.install_status != 11 &amp;&amp; current.install_status != 9) {
+			
+            if (current.location.building == null || current.location.getAttribute("building")=="") {
+                gs.addErrorMessage('Debe seleccionar ubicaciones dentro de los centros de la universidad');
+                current.setAbortAction(true);
+            }
+        }
+    }
+
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 11:27:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e4b5f9e21b91c65062f8ea46624bcb78&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Comprobar ubicación&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e4b5f9e21b91c65062f8ea46624bcb78&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 08:38:19&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e4b5f9e21b91c65062f8ea46624bcb78"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;e4b5f9e21b91c65062f8ea46624bcb78&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:16:25&lt;/sys_created_on&gt;&lt;sys_id&gt;dd00905b1b55461018398485604bcb76&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:16:25&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2034756250</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>47b67c8c1b6a4a1062f8ea46624bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb917c10000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>alm_asset</table>
+<target_name>LPG Comprobar ubicación</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>8356b48ce46a4a10e9eef72925cad290</update_guid>
+<update_guid_history>8356b48ce46a4a10e9eef72925cad290:-2034756250,d1228e8e4321c210faea2a1d38946b03:-2034756250,94e44b84bb2942101c52853409c0bd74:-1788234926,fec30f4421294210e2c7d908ad2dd7da:1491154596,dc0db9739e950210482eae986add135b:-810357286,4bcc39738a950210c62b3c10b7072f9a:1934209923,9900985ba25546109cd66652b8984325:-1632272199,6131b2aa0355c650dd31f5ab2dd70733:-1193029391,7721b2aade55c6506d7f22d9371f662c:-1419746159,7690b66ad655c6502db3f103131315fe:1333963760,f7007a2a3a55c650756f1e55663fdd8b:-1637802696,73ae2ae60f55c65050471c0185fedf80:-1136406130,161ea2e6fd55c650a388ee3521cdf04d:1439540071,8731aaeaab15c650f281091de8d1dc2e:791378029,7b01e2ea3c15c65097a2145817a1a7eb:-1166992315,e9c0a2ea9215c65089090bfd7eae2b82:-848235449,33a06aaaad15c65035430f5f7ea8c1ba:-334597825,811066aa2115c6506faf3d50402e64a4:-771664072,62cf16aa9315c6503a7384e45c50f29c:-830464170,935c5ea6c515c650d1558eaf1407ab14:-1715617384,395b5e667915c6507f0e4c637d98e441:296535348,91708e6e7691c6508885d17a50fc48d5:1388720760,724f352edb91c650cd682de15126834b:252876738</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_410a2f561b8a4a1018398485604bcbce</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=campusvirtual^EQ&lt;item display_value="Campus virtual" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="campusvirtual"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Servicio Campus Virtual&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 07:23:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;410a2f561b8a4a1018398485604bcbce&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Servicio Campus Virtual&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_410a2f561b8a4a1018398485604bcbce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-11 07:24:49&lt;/sys_updated_on&gt;&lt;template&gt;business_service=fb4963561b8a4a1018398485604bcb17^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=410a2f561b8a4a1018398485604bcbce"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2036847769</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>4bb67c8c1b6a4a1062f8ea46624bcb68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb913d00000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Servicio Campus Virtual</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3256b48cfa6a4a1085a4b2ad69de6270</update_guid>
+<update_guid_history>3256b48cfa6a4a1085a4b2ad69de6270:2036847769,ceaae796f48a4a1059c104a191f10ed5:2036847769,b75aaf56ff8a4a1055c42763d5acd3fb:1513000027</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_c978aa051be1461062f8ea46624bcb00</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_conexiones_wifi&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Actualizar conexiones wifi&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord("u_conexiones_wifi");
+	gr.addQuery("solicitado_por",current.solicitado_por);
+	gr.addQuery("u_edificio",current.u_edificio);
+	gr.addQuery("u_planta",current.u_planta);
+	gr.addQuery("u_fecha_de_fin","&lt;",current.u_fecha_de_fin);
+	gr.query();
+
+	if (gr.next()){
+		gr.deleteRecord();
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-12 09:00:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c978aa051be1461062f8ea46624bcb00&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Actualizar conexiones wifi&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c978aa051be1461062f8ea46624bcb00&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-12 09:00:05&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c978aa051be1461062f8ea46624bcb00"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>182336500</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>4bb67c8c1b6a4a1062f8ea46624bcb6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb917040000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>u_conexiones_wifi</table>
+<target_name>LPG Actualizar conexiones wifi</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>8b56b48cca6a4a10527fbbdab37ce189</update_guid>
+<update_guid_history>8b56b48cca6a4a10527fbbdab37ce189:182336500,fe5aa6c564e14610bb1c71fbfade8cae:182336500</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Change Management - ATF">649270d153131300e321ddeeff7b120e</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_1ebb63dc474542100aeaa144846d43f3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=mantenimientodehardware^EQ&lt;item display_value="Mantenimiento de hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="mantenimientodehardware"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Plantilla Cambios Mant Hardware&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var in3days = new GlideDateTime();
+    in3days.addDaysUTC(3);
+    var day3 = in3days.getDate().toString();
+    in3days.setDisplayValue(day3 + " 08:00:00", 'yyyy-MM-dd HH:mm:ss')
+    current.start_date = in3days;
+
+    var in7days = new GlideDateTime();
+    in7days.addDaysUTC(7);
+    var day7 = in7days.getDate().toString();
+    in7days.setDisplayValue(day7 + " 08:00:00", 'yyyy-MM-dd HH:mm:ss')
+    current.end_date = in7days;
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-16 09:22:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1ebb63dc474542100aeaa144846d43f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Plantilla Cambios Mant Hardware&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Change Management - ATF" source="sn_change_atf"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Change Management - ATF"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1ebb63dc474542100aeaa144846d43f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:32:59&lt;/sys_updated_on&gt;&lt;template&gt;type=standard^chg_model=e55d0bfec343101035ae3f52c1d3ae49^implementation_plan=1. Análisis de rendimiento del hardware&amp;#13;
+2. Definir los objetivos del proceso de mantenimiento o sustitución&amp;#13;
+3. Identificar los requisitos específicos del usuario o departamento para el nuevo ordenador&amp;#13;
+4. Investigar opciones disponibles&amp;#13;
+5. Realizar copias de seguridad de los datos del ordenador antiguo&amp;#13;
+6. Transferir los datos y la configuración al nuevo ordenador&amp;#13;
+7. Instalar el nuevo ordenador y configurar el sistema operativo&amp;#13;
+8. Establecer plan de mantenimiento^backout_plan=1. Desinstalar el hardware&amp;#13;
+2. Restaurar el sistema operativo&amp;#13;
+3. Recuperar los datos^test_plan=1. Encender y apagar el hardware&amp;#13;
+2. Pruebas de hardware&amp;#13;
+3. Pruebas del sistema operativo&amp;#13;
+4. Pruebas de rendimiento&amp;#13;
+5. Pruebas de seguridad&amp;#13;
+6. Pruebas según las necesidades específicas del usuario^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1ebb63dc474542100aeaa144846d43f3"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;1ebb63dc474542100aeaa144846d43f3&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:33:00&lt;/sys_created_on&gt;&lt;sys_id&gt;94d35c5f1b55461018398485604bcbe5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:33:00&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2141876572</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>4fb67c8c1b6a4a1062f8ea46624bcb67</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb913100000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Plantilla Cambios Mant Hardware</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7256b48c136a4a103fc7584d25e23869</update_guid>
+<update_guid_history>7256b48c136a4a103fc7584d25e23869:-2141876572,dcd35c5fab55461017311d1d2f89fee6:-2141876572,facbfb10bac542109544b96ca37a678a:132817217,c16a3fdcba854210eded29d04e6ddd61:-1861513281,404aff9cd3854210836b012af3311f4f:16313089,1868f75c068542107cf4be401d6aab0f:431516253,af87b71cdc85421088f88717cf40351b:951464797,30073f9866854210784cbf906f4b2491:431516253,5eb63fd8d7854210191286c2e8e8a413:130926689,4d543f183e85421064f4c55c5d7a93f8:2029031977,3b7cafdca2454210db27bf00ecf8b36c:-460687180</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8b30483a4705ca100aeaa144846d433a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; (gs.hasRole("causi") || gs.hasRole("atic"))&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG change query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[restrictIncidents();
+
+function restrictIncidents() {
+    /*if (!gs.hasRole("causi") &amp;&amp; !gs.hasRole("atic") &amp;&amp; !gs.hasRole("itil") &amp;&amp; !gs.hasRole("sn_incident_read") &amp;&amp; gs.isInteractive()) {
+		//Do NOT restrict Incidents if SPM premium plugin is active AND user has the service_viewer role.
+		if (GlidePluginManager.isActive('com.snc.spm') &amp;&amp; gs.hasRole('service_viewer'))
+            return;
+		if (GlidePluginManager.isActive('sn_fsm_itsm_mng') &amp;&amp; gs.hasRole('wm_ext_agent'))
+            return;
+		// STRY52118544: ham_user is added to support incident read for reporting on HAM store app
+		if (GlidePluginManager.isActive('com.sn_hamp') &amp;&amp; gs.hasRole('sn_hamp.ham_user')) {
+			return;
+		}
+		// DEF0330091: Allow query on OT Incident with sn_ot_incident_read role
+		if (GlidePluginManager.isActive('com.sn_ot_inc_mgmt') &amp;&amp; gs.hasRole("sn_ot_incident_read"))
+			return;
+
+		var u = gs.getUserID();
+		current.addQuery("caller_id", u).addOrCondition("opened_by", u).addOrCondition("watch_list", "CONTAINS", u);
+	}*/
+
+    var u = gs.getUserID();
+    var groups = new GlideRecord("sys_user_grmember");
+    groups.addQuery("user", u);
+    groups.query();
+
+	var qry = current.addQuery("assigned_to",u);
+
+    while(groups.next()){
+		qry.addOrCondition("assignment_group", groups.group);
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-23 10:34:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8b30483a4705ca100aeaa144846d433a&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG change query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8b30483a4705ca100aeaa144846d433a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-11 06:58:31&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8b30483a4705ca100aeaa144846d433a"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;8b30483a4705ca100aeaa144846d433a&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:23:44&lt;/sys_created_on&gt;&lt;sys_id&gt;e4b1d4db1b55461018398485604bcb0f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:23:44&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1234852294</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>4fb67c8c1b6a4a1062f8ea46624bcb6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb9164a0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG change query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>8b56b48c896a4a1022d0fd44913c2c83</update_guid>
+<update_guid_history>8b56b48c896a4a1022d0fd44913c2c83:-1234852294,64f481fc592dc210ea45580871b24d5f:-1234852294,20b1d4dbc75546109cd8639a5cdc4e11:2033503520,a753803eda05ca1022f9532cb82152b6:-1555750615,c7324cba1c05ca10ca9dbf5b1b46ec93:-2050453480,bf220cba1005ca10b6efe4085f22af37:-1555750615,5fc0cc3ac205ca10ddaec75d5b909784:1557391430,cb30483a5305ca1011f545758d99d53c:99895029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_4e1e75c247090a100aeaa144846d4323</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;alm_asset&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; (gs.hasRole("unidad_tecnica") || gs.hasRole("unidad_tecnica_central"));&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG assets query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var user = gs.getUser();
+
+    if (user.isMemberOf("Unidad técnica de la escuela de Ingeniería Informática")) {
+        var location = new GlideRecord("sn_wsd_core_building");
+        location.get("name", "Escuela de Ingeniería Informática");
+
+        //obtener espacios
+        var spaces = new GlideRecord("sn_wsd_core_space");
+        spaces.addQuery("building", location.getUniqueValue());
+        spaces.query();
+
+        var arr = [];
+        while (spaces.next()) {
+            arr.push(spaces.getValue("name"));
+        }
+
+        current.addQuery("location", location.getUniqueValue()).addOrCondition("location.name", "IN", arr);
+    } else if (user.isMemberOf("Unidad técnica de la facultad de Biología")) {
+        location = new GlideRecord("sn_wsd_core_building");
+        location.get("name", "Facultad de Biología");
+
+        //obtener espacios
+        spaces = new GlideRecord("sn_wsd_core_space");
+        spaces.addQuery("building", location.getUniqueValue());
+        spaces.query();
+
+        current.addQuery("location", location.getUniqueValue()).addOrCondition("location.name","IN",arr);
+    } else {
+        current.addQuery("location.name", "Asturias").addOrCondition("location.state", "Asturias");
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-21 11:53:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4e1e75c247090a100aeaa144846d4323&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG assets query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_4e1e75c247090a100aeaa144846d4323&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-10 09:43:58&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4e1e75c247090a100aeaa144846d4323"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;4e1e75c247090a100aeaa144846d4323&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:16:53&lt;/sys_created_on&gt;&lt;sys_id&gt;48201c5b1b55461018398485604bcb35&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:16:53&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>278767681</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>83b67c8c1b6a4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb914570000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>alm_asset</table>
+<target_name>LPG assets query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3a56b48c7d6a4a1050b9b2746c608e74</update_guid>
+<update_guid_history>3a56b48c7d6a4a1050b9b2746c608e74:278767681,5e316428752d8210df066d7482544a58:278767681,80201c5ba9554610ad86a1fe53b1e837:-873780670,42a60c329c45ca10c11d35f142ec109c:-837818936,378e8f4a184d0a10d1d9479c4b1d2829:-266450904,f6a402cab6090a10668e2b583c717b45:918510178,d504428aec090a10fd50b0de7f117619:-1375600589,7c23064a87090a10e1161edb158d0fb5:-1472108496,4282824a3e090a10ef95f5868a51ad5c:-1538961891,d92f7906f9090a10e9323c5716203ea8:693356573</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Change Management - ATF">649270d153131300e321ddeeff7b120e</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d2bfb79447c542100aeaa144846d435f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=campusvirtual^EQ&lt;item display_value="Campus virtual" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="campusvirtual"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Plantilla Cambios Campus Virtual&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-16 10:46:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d2bfb79447c542100aeaa144846d435f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Plantilla Cambios Campus Virtual&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Change Management - ATF" source="sn_change_atf"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Change Management - ATF"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d2bfb79447c542100aeaa144846d435f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:32:53&lt;/sys_updated_on&gt;&lt;template&gt;type=normal^chg_model=007c4001c343101035ae3f52c1d3aeb2^implementation_plan=1. Definir el cambio&amp;#13;
+2. Evaluar el impacto del cambio&amp;#13;
+3. Desarrollar el cambio&amp;#13;
+4. Realizar pruebas exhaustivas del cambio&amp;#13;
+5. Verificar que el cambio cumpla con los estándares de accesibilidad web y SEO&amp;#13;
+6. Obtener aprobación del equipo&amp;#13;
+7. Implementación en producción&amp;#13;
+8. Comunicar cambio al usuario^backout_plan=Utilizar las copias de seguridad^test_plan=1. Pruebas de funcionalidad&amp;#13;
+2. Pruebas de rendimiento&amp;#13;
+3. Pruebas de compatibilidad&amp;#13;
+4. Pruebas de accesibilidad^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d2bfb79447c542100aeaa144846d435f"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;d2bfb79447c542100aeaa144846d435f&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:32:54&lt;/sys_created_on&gt;&lt;sys_id&gt;3ec31c5f1b55461018398485604bcba1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:32:54&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-596091717</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>83b67c8c1b6a4a1062f8ea46624bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb917890000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Plantilla Cambios Campus Virtual</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>c756b48c066a4a1013cac4b456af838e</update_guid>
+<update_guid_history>c756b48c066a4a1013cac4b456af838e:-596091717,76c31c5f475546107da735ff069936a3:-596091717,b3d0c8a415c54210d11e9c22216b30e3:-1771463247,f9ef7b943cc54210689316d5ed25664d:244560966,16bfb794bac54210c34b945f51ebd861:132817217</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_28f341bc1b2dc21062f8ea46624bcb45</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; (gs.hasRole("causi") || gs.hasRole("atic"))&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG incident query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.hasRole("causi") || gs.hasRole("atic")) {
+        var u = gs.getUserID();
+        var groups = new GlideRecord("sys_user_grmember");
+        groups.addQuery("user", u);
+        groups.query();
+
+        var qry = current.addQuery("assigned_to", u);
+
+        while (groups.next()) {
+            qry.addOrCondition("assignment_group", groups.group);
+        }
+    }
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-11 06:54:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;28f341bc1b2dc21062f8ea46624bcb45&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG incident query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_28f341bc1b2dc21062f8ea46624bcb45&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-11 06:58:38&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=28f341bc1b2dc21062f8ea46624bcb45"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-860596972</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>87b67c8c1b6a4a1062f8ea46624bcb68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb913ad0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>incident</table>
+<target_name>LPG incident query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7a56b48c076a4a107aa3959fc2bb746e</update_guid>
+<update_guid_history>7a56b48c076a4a107aa3959fc2bb746e:-860596972,caf48dbcd92dc2107b8e788cefb16284:-860596972,10b40dbc642dc210a34666eeb159d9ea:-1342858066,bcf341bc152dc2102003071263c10949:-1102055135</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_c71400e61b0e4a1018398485604bcb88</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;stateCHANGESTO-2^EQ&lt;item display_value="Scheduled" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="-2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Estado Programado&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.comments = "El cambio ha sido aprobado y pronto comenzaremos con su implementación.";
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 09:18:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c71400e61b0e4a1018398485604bcb88&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Estado Programado&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c71400e61b0e4a1018398485604bcb88&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-11 09:18:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c71400e61b0e4a1018398485604bcb88"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1886287354</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>87b67c8c1b6a4a1062f8ea46624bcb6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb916cf0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Estado Programado</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>c356b48c2c6a4a10459a75d10e7d3088</update_guid>
+<update_guid_history>c356b48c2c6a4a10459a75d10e7d3088:-1886287354,94c4c8e6c80e4a1068dbe7976db2a602:-1886287354</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Change Management - ATF">649270d153131300e321ddeeff7b120e</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_1cf00ce447c542100aeaa144846d437e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=red^EQ&lt;item display_value="Red" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="red"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Plantilla Cambios Red&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-16 10:51:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1cf00ce447c542100aeaa144846d437e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Plantilla Cambios Red&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Change Management - ATF" source="sn_change_atf"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Change Management - ATF"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1cf00ce447c542100aeaa144846d437e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:32:48&lt;/sys_updated_on&gt;&lt;template&gt;type=normal^chg_model=007c4001c343101035ae3f52c1d3aeb2^implementation_plan=1. Identificar el objetivo&amp;#13;
+2. Definir los componentes de red que se verán afectados &amp;#13;
+3. Evaluar el impacto del cambio&amp;#13;
+4. Planificar el cambio&amp;#13;
+5. Asignar recursos humanos y técnicos&amp;#13;
+6. Implementar el cambio&amp;#13;
+7. Monitorear el rendimiento de la red después de implemetnar el cambio para identificar problemas en el rendimiento&amp;#13;
+8. Realizar ajustes y optimizaciones^backout_plan=Restaurar la configuración de la red utilizando las copias de seguridad y deshacer cambios de configuración.^test_plan=1. Pruebas de funcionalidad&amp;#13;
+2. Pruebas de rendimiento&amp;#13;
+3. Pruebas de seguridad&amp;#13;
+4. Pruebas de escalabilidad&amp;#13;
+5. Pruebas de disponibilidad^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1cf00ce447c542100aeaa144846d437e"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;1cf00ce447c542100aeaa144846d437e&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:32:48&lt;/sys_created_on&gt;&lt;sys_id&gt;99c31c5f1b55461018398485604bcb7f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:32:48&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1400282762</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>8bb67c8c1b6a4a1062f8ea46624bcb67</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb912930000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Plantilla Cambios Red</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3a56b08ce16a4a106d58cbd4b810e96b</update_guid>
+<update_guid_history>3a56b08ce16a4a106d58cbd4b810e96b:-1400282762,d1c31c5fd8554610a6f8e80530b3c281:-1400282762,0bc2c8686fc542107c62e043dc3d2948:2104447769,6cf00ce45ec542104f4d1afee8a9ba80:-1771463247</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8a6a9bf01bf0821062f8ea46624bcbcb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;assignment_groupVALCHANGES^incident_state=2^EQ&lt;item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item display_value="In Progress" endquery="false" field="incident_state" goto="false" newquery="false" operator="=" or="false" value="2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Cambiar estado incidente al escalar&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-05 11:06:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8a6a9bf01bf0821062f8ea46624bcbcb&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Cambiar estado incidente al escalar&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8a6a9bf01bf0821062f8ea46624bcbcb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:40:04&lt;/sys_updated_on&gt;&lt;template&gt;incident_state=1^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8a6a9bf01bf0821062f8ea46624bcbcb"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;8a6a9bf01bf0821062f8ea46624bcbcb&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:40:05&lt;/sys_created_on&gt;&lt;sys_id&gt;8c751cdf1b55461018398485604bcbc5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:40:05&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-477746405</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>8bb67c8c1b6a4a1062f8ea46624bcb6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb915fe0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>incident</table>
+<target_name>LPG Cambiar estado incidente al escalar</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>0756b48c226a4a10763a03390f7ebe81</update_guid>
+<update_guid_history>0756b48c226a4a10763a03390f7ebe81:-477746405,c4751cdf9b554610d3553a9149064bc7:156926108,a2eb5f3499f08210f1abf15bdc4191ff:741573897,2aca9bf0e2f08210fd9044e659c44566:-1049818864</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_5d661d701badc21062f8ea46624bcb63</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sysapproval_approver&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG el estado cambia a aprobado&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var ritm = current.document_id;
+    var grItem = new GlideRecord('sysapproval_group');
+    grItem.addQuery('parent', ritm);
+    grItem.query();
+    while (grItem.next()) {
+        if (grItem.approval != 'approved') {
+            grItem.setValue('approval', 'approved');
+            grItem.update();
+        }
+ 
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-11 08:16:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5d661d701badc21062f8ea46624bcb63&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG el estado cambia a aprobado&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5d661d701badc21062f8ea46624bcb63&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-11 10:43:34&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5d661d701badc21062f8ea46624bcb63"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2098659201</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>8fb67c8c1b6a4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb914eb0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>sysapproval_approver</table>
+<target_name>LPG el estado cambia a aprobado</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3e56b48ca96a4a10e50728bea53bfb7a</update_guid>
+<update_guid_history>3e56b48ca96a4a10e50728bea53bfb7a:-2098659201,c9783d38ba210610273be6f9aa83263a:-2098659201,9abba53891edc21024efc830ee135fe6:978739224,a30995342fadc2106d4033518f6eb4e4:-2098659201,98e61d7064adc210ed8eea6813afe105:978739224</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_f45d73af476c4e500aeaa144846d437c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sn_hamp_loaner_asset_order&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Establecer Solicitado para&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.requested_for = gs.getUserID();
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-01 16:25:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f45d73af476c4e500aeaa144846d437c&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Establecer Solicitado para&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f45d73af476c4e500aeaa144846d437c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:37:37&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f45d73af476c4e500aeaa144846d437c"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;f45d73af476c4e500aeaa144846d437c&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:37:37&lt;/sys_created_on&gt;&lt;sys_id&gt;80e4dc9f1b55461018398485604bcbef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:37:37&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1453409391</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>8fb67c8c1b6a4a1062f8ea46624bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb9184e0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>sn_hamp_loaner_asset_order</table>
+<target_name>LPG Establecer Solicitado para</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>4756b48c676a4a10c0c55721c87e6e95</update_guid>
+<update_guid_history>4756b48c676a4a10c0c55721c87e6e95:1453409391,c8e4dc9f5f5546109687ea3af49fe4f0:1453409391,b19104b30fac4e506d9d5ae57f9d3140:-449711126,3e1e77af956c4e50e7f3a08fdf156140:-1883675733,428d73af926c4e5039e98d2c59929e88:443867283</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_280b36f81b70821062f8ea46624bcbde</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;incident_state=1^assigned_toISNOTEMPTY^EQ&lt;item display_value="New" endquery="false" field="incident_state" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Estado cambia a En curso&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-05 08:49:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;280b36f81b70821062f8ea46624bcbde&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Estado cambia a En curso&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_280b36f81b70821062f8ea46624bcbde&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:30:05&lt;/sys_updated_on&gt;&lt;template&gt;incident_state=2^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=280b36f81b70821062f8ea46624bcbde"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;280b36f81b70821062f8ea46624bcbde&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:30:06&lt;/sys_created_on&gt;&lt;sys_id&gt;b923505f1b55461018398485604bcb0e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:30:06&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1149014199</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>c3b67c8c1b6a4a1062f8ea46624bcb68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb913740000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>incident</table>
+<target_name>LPG Estado cambia a En curso</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>f656b48c016a4a10c0b8485553300e6c</update_guid>
+<update_guid_history>f656b48c016a4a10c0b8485553300e6c:1149014199,f123505f935546100f7a49c1b7aa8e10:-86388594,717b7af8627082109693231c59995b9c:729223282</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_be8905ee1bd5821018398485604bcbe4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;cmn_location&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="cmn_location"&gt;sys_created_bySTARTSWITHaaron^ORsys_created_bySTARTSWITHlucia^EQ&lt;item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="STARTSWITH" or="false" value="aaron"/&gt;&lt;item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="STARTSWITH" or="true" value="lucia"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG location query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-04 07:37:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;be8905ee1bd5821018398485604bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG location query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_be8905ee1bd5821018398485604bcbe4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:16:35&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=be8905ee1bd5821018398485604bcbe4"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;be8905ee1bd5821018398485604bcbe4&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:16:35&lt;/sys_created_on&gt;&lt;sys_id&gt;7700905b1b55461018398485604bcb8d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:16:35&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1649032387</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>c3b67c8c1b6a4a1062f8ea46624bcb6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb916a60000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>cmn_location</table>
+<target_name>LPG location query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>0f56b48c246a4a1052e32f88b2ce7286</update_guid>
+<update_guid_history>0f56b48c246a4a1052e32f88b2ce7286:1649032387,bf00905bd755461022e296c3bc5e198e:1649032387,deaa8522dc198210011ccec09be8eb07:-1033710492</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_126f1d0247850a100aeaa144846d43e4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;alm_stockroom&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG stockroom query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.addQuery("location","Asturias").addOrCondition("location.state","Asturias");
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-21 09:35:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;126f1d0247850a100aeaa144846d43e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG stockroom query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_126f1d0247850a100aeaa144846d43e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:23:59&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=126f1d0247850a100aeaa144846d43e4"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;126f1d0247850a100aeaa144846d43e4&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:24:00&lt;/sys_created_on&gt;&lt;sys_id&gt;68c1d4db1b55461018398485604bcb18&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:24:00&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-627367430</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>c7b67c8c1b6a4a1062f8ea46624bcb67</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb912360000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>alm_stockroom</table>
+<target_name>LPG stockroom query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>fa56b08c976a4a1024d484e0fdf16c69</update_guid>
+<update_guid_history>fa56b08c976a4a1024d484e0fdf16c69:-627367430,a0c1d4db7555461013565a484c38f51a:-627367430,029f5142d3850a10b4f4f0758fc59b26:137998486</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_76707e12474d4a100aeaa144846d435d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_request&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; (gs.hasRole("unidad_tecnica") || gs.hasRole("causi") || gs.hasRole("atic"))&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG sc_request query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var u = gs.getUserID();
+    var groupsArray = gs.getUser().getMyGroups();
+
+    current.addQuery("requested_for", u).addOrCondition("assignment_group", "IN", groupsArray);
+
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 10:13:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;76707e12474d4a100aeaa144846d435d&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG sc_request query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_76707e12474d4a100aeaa144846d435d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-10 15:22:21&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=76707e12474d4a100aeaa144846d435d"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;76707e12474d4a100aeaa144846d435d&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:16:53&lt;/sys_created_on&gt;&lt;sys_id&gt;58201c5b1b55461018398485604bcb3f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:16:53&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1772418130</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>c7b67c8c1b6a4a1062f8ea46624bcb6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb915510000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>sc_request</table>
+<target_name>LPG sc_request query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7a56b48c3b6a4a103c896b28759f0f7f</update_guid>
+<update_guid_history>7a56b48c3b6a4a103c896b28759f0f7f:-1772418130,0faeede03d61c210f695c7fb140f329e:-1772418130,694739fbc75502103290606f5d066d1c:1418215615,90201c5b61554610d0ddcd81567e1641:-1876861138,8d8648324345ca1033ee7358a746898a:-1760187986,c8eb839290018a104f06e336f33590ad:99066215,2f02f6d2114d4a10a1eb903c6643be9b:-1362746302,5fd1b2d2e74d4a10adf4a712af2639a3:-990744015</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_55b8757f1b55021062f8ea46624bcbf1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sn_hamp_loaner_asset_task&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; gs.hasRole("unidad_tecnica_centro") &amp;amp;&amp;amp; current.task_name == "reclaim"&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Tarea de reclamación&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var user = gs.getUser();
+	
+    if (user.isMemberOf("Unidad técnica de la escuela de Ingeniería Informática")) {
+        var stockroom = new GlideRecord("alm_stockroom");
+        stockroom.get("name", "Escuela de Ingeniería Informática");
+        current.return_stockroom = stockroom.getUniqueValue();
+    } else if (user.isMemberOf("Unidad técnica de la facultad de Biología")) {
+        var stockroom = new GlideRecord("alm_stockroom");
+        stockroom.get("name", "Facultad de Biología");
+        current.return_stockroom = stockroom.getUniqueValue();
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-08 08:16:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;55b8757f1b55021062f8ea46624bcbf1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Tarea de reclamación&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_55b8757f1b55021062f8ea46624bcbf1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 08:39:37&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=55b8757f1b55021062f8ea46624bcbf1"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-841930551</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>cbb67c8c1b6a4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb914c70000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>sn_hamp_loaner_asset_task</table>
+<target_name>LPG Tarea de reclamación</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7656b48ce46a4a10b92b3a4b17d5a279</update_guid>
+<update_guid_history>7656b48ce46a4a10b92b3a4b17d5a279:-841930551,607202cef021c210e0781e3ecef6a68a:-841930551,73f979bfa655021053fee30e963aba5c:-940663085</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Change Management - ATF">649270d153131300e321ddeeff7b120e</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_ef74842c47c542100aeaa144846d433f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;category=seguridad^EQ&lt;item display_value="Seguridad" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="seguridad"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Plantilla Cambios Seguridad&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var in2days = new GlideDateTime();
+    in2days.addDaysUTC(2);
+    var day2 = in2days.getDate().toString();
+    in2days.setDisplayValue(day2 + " 08:00:00", 'yyyy-MM-dd HH:mm:ss');
+    current.start_date = in2days;
+
+    var in5days = new GlideDateTime();
+    in5days.addDaysUTC(5);
+    var day5 = in5days.getDate().toString();
+    in5days.setDisplayValue(day5 + " 08:00:00", 'yyyy-MM-dd HH:mm:ss');
+    current.end_date = in5days;
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-16 11:07:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ef74842c47c542100aeaa144846d433f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Plantilla Cambios Seguridad&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Change Management - ATF" source="sn_change_atf"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Change Management - ATF"&gt;649270d153131300e321ddeeff7b120e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ef74842c47c542100aeaa144846d433f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:32:43&lt;/sys_updated_on&gt;&lt;template&gt;type=emergency^chg_model=62d10fa1c303101035ae3f52c1d3aec1^implementation_plan=1. Definir sistemas que se verán afectados por el cambio de seguridad.&amp;#13;
+2. Identificar los posibles riesgos&amp;#13;
+3. Planificar el cambio&amp;#13;
+4. Realizar pruebas en entorno de prueba&amp;#13;
+5. Elaborar plan de respaldo y contingencia para revertir el cambio si hay problemas y realizar copias de seguridad&amp;#13;
+6. Implementar el cambio por etapas.&amp;#13;
+7. Monitorear la efectividad del cambio de seguridad&amp;#13;
+8. Realizar ajustes y configuraciones^backout_plan=1. Deshacer los cambios realizados&amp;#13;
+2. Restaurar las configuraciones y políticas de seguridad anteriores utilizando las copias de seguridad.&amp;#13;
+3. Reiniciar todos los sistemas y servicios afectados&amp;#13;
+4. Verificar que los sistemas y servicios se reinicien correctamente^test_plan=1. Pruebas de vulnerabilidad&amp;#13;
+2. Pruebas de conformidad con los estándares y regulaciones de seguridad relevantes&amp;#13;
+3. Pruebas de rendimiento&amp;#13;
+4. Pruebas de recuperación ante desastres^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ef74842c47c542100aeaa144846d433f"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;ef74842c47c542100aeaa144846d433f&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:32:43&lt;/sys_created_on&gt;&lt;sys_id&gt;54c31c5f1b55461018398485604bcb96&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:32:43&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2011100124</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>cbb67c8c1b6a4a1062f8ea46624bcb6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb918200000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Plantilla Cambios Seguridad</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>0b56b48cdd6a4a10b56eaf7947360e93</update_guid>
+<update_guid_history>0b56b48cdd6a4a10b56eaf7947360e93:2011100124,9cc31c5f1055461017e9b8d3ae157197:2011100124,ad9648ac1fc54210127619f56a11e513:-641153049,858608ac15c54210994a950195d6c1c2:487022723,3374842cefc54210183edbe60bd8c342:132817217</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_11d488e61b0e4a1018398485604bcb7e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;change_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="change_request"&gt;stateCHANGESTO3^EQ&lt;item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG Estado Cerrado&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.comments = "El trabajo se ha completado y el cambio se ha cerrado.";
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 09:19:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;11d488e61b0e4a1018398485604bcb7e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Estado Cerrado&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_11d488e61b0e4a1018398485604bcb7e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-11 09:21:03&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=11d488e61b0e4a1018398485604bcb7e"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-796229561</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>cfb67c8c1b6a4a1062f8ea46624bcb66</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb911440000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Estado Cerrado</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>2256b08cbe6a4a10a234ebe29b2de868</update_guid>
+<update_guid_history>2256b08cbe6a4a10a234ebe29b2de868:-796229561,b8458ce6130e4a10dbc7e865e6322117:-796229561,61d488e6640e4a10cdcc7a84cce0f680:610507197</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_4b0405bc1b2dc21062f8ea46624bcb37</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;problem&lt;/collection&gt;&lt;condition&gt;!gs.hasRole("admin")  &amp;amp;&amp;amp; (gs.hasRole("causi") || gs.hasRole("atic"))&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;LPG problem query&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (gs.hasRole("causi") || gs.hasRole("atic")) {
+        var u = gs.getUserID();
+        var groups = new GlideRecord("sys_user_grmember");
+        groups.addQuery("user", u);
+        groups.query();
+
+        var qry = current.addQuery("assigned_to", u);
+
+        while (groups.next()) {
+            qry.addOrCondition("assignment_group", groups.group);
+        }
+    }
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-11 06:54:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4b0405bc1b2dc21062f8ea46624bcb37&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG problem query&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_4b0405bc1b2dc21062f8ea46624bcb37&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-20 09:44:10&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4b0405bc1b2dc21062f8ea46624bcb37"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1009839718</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>cfb67c8c1b6a4a1062f8ea46624bcb68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb914240000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>problem</table>
+<target_name>LPG problem query</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7e56b48c476a4a1063b7bde18eba1372</update_guid>
+<update_guid_history>7e56b48c476a4a1063b7bde18eba1372:1009839718,62218c3bf3a94a10094a74826bc24371:1009839718,7bf481fce82dc2109fc5a33571b493f5:-185975915,4fb48dbcb52dc210960b42b3c620b5a5:1577467057,cb0405bc302dc210781322f055e8d990:-1102055135</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_cffcdb9447e082500aeaa144846d439e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;Se ha escalado el incidente al Causi&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;LPG Nivel 1 y grupo Causi&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-20 11:45:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cffcdb9447e082500aeaa144846d439e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Nivel 1 y grupo Causi&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_cffcdb9447e082500aeaa144846d439e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:31:29&lt;/sys_updated_on&gt;&lt;template&gt;u_nivel=1^assignment_group=b2d230a31b4fb11062f8ea46624bcb41^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cffcdb9447e082500aeaa144846d439e"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;cffcdb9447e082500aeaa144846d439e&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-06 11:31:29&lt;/sys_created_on&gt;&lt;sys_id&gt;4273945f1b55461018398485604bcbef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 11:31:29&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value&gt;&amp;lt;p&amp;gt;Se ha escalado el incidente al Causi&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1491925968</payload_hash>
+<remote_update_set display_value="LPG Reglas de negocio">8bb67c8c1b6a4a1062f8ea46624bcb66</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 15:03:47</sys_created_on>
+<sys_id>cfb67c8c1b6a4a1062f8ea46624bcb6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfb917540000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 15:03:47</sys_updated_on>
+<table>incident</table>
+<target_name>LPG Nivel 1 y grupo Causi</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>0f56b48cbd6a4a10e8ffa69ddf53eb8c</update_guid>
+<update_guid_history>0f56b48cbd6a4a10e8ffa69ddf53eb8c:1491925968,8a73945ff95546102f1bfd1dc51aa2f0:1491925968,037d5f9425e082503937b7f1c29d0807:213442230</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
