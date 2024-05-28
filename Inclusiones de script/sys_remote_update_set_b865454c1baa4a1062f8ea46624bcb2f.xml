@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:07:49">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Inclusiones de script</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>09c778cc1b6a4a1062f8ea46624bcb92</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>b865454c1baa4a1062f8ea46624bcb2f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_bfcbeab21bddc21018398485604bcb7c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GetBuildingUtilsAjax&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetBuildingUtilsAjax&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetBuildingUtilsAjax = Class.create();
+GetBuildingUtilsAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	getBuilding: function(){
+		return new GetBuildingUtils().getBuilding(this.getParameter("sysparm_location"));
+	},
+
+	checkBuilding: function(){
+		return new GetBuildingUtils().checkBuilding(this.getParameter("sysparm_building"));
+	},
+	
+    type: 'GetBuildingUtilsAjax'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 09:20:48&lt;/sys_created_on&gt;&lt;sys_id&gt;bfcbeab21bddc21018398485604bcb7c&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetBuildingUtilsAjax&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_bfcbeab21bddc21018398485604bcb7c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-05 10:45:52&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>236716920</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>3865454c1baa4a1062f8ea46624bcb31</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc144d60000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>GetBuildingUtilsAjax</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>3568b4000eaa4a101b464ac2a4c4df4a</update_guid>
+<update_guid_history>3568b4000eaa4a101b464ac2a4c4df4a:236716920,147f7ef6d811061092bb481facb2b1f6:236716920,612e6676c5ddc210d14a92b30d573b8d:2062665537,d6dd227692ddc21008ba72a47bba829f:-1151832396,52fb22f297ddc2101716dc7965bd7b62:-96174150</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_75bd911347e40e500aeaa144846d4333</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_hamp.ReserveComputerUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;ReserveComputerUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var ReserveComputerUtils = Class.create();
+ReserveComputerUtils.prototype = {
+    initialize: function() {
+    },
+	isALoanerComputerAvailableBetweenDates: function(model, location, fromStartDate, toReturnDate) {
+		var computersAvailable = new sn_hamp.ReserveComputerUtils().getInStockComputerLoanerAssetsCount(location, model);
+		
+		if (computersAvailable == 0){
+			return false;
+		}
+		
+		var startDate = String(fromStartDate);
+		var returnDate = String(toReturnDate);
+		var leadTimeInDays = parseInt(2,10);
+		
+		var preparationStartDate = HampLoanerUtils.getPreparationStartDate(startDate, leadTimeInDays);
+		
+		var overlappingOrdersStartDates = [preparationStartDate];
+		var overlappingOrdersEndDates = [returnDate];
+
+		var overlappingOrdersGq = new global.GlideQuery('sn_hamp_loaner_asset_order')
+			.where('model',model)
+			.where('location', location)
+			.where('is_waitlisted', false)
+			.where('stage', '!=', HampLoanerUtils.STAGE_COMPLETED)
+			.where('stage', '!=', HampLoanerUtils.STAGE_CANCELLED);
+		overlappingOrdersGq = HampLoanerUtils.addLoanerOrdersOverlapQuery(
+			overlappingOrdersGq,
+			startDate,
+			returnDate,
+			leadTimeInDays,
+			true /* isGlideQuery */
+		);
+
+		overlappingOrdersGq.select('preparation_start_date', 'return_date')
+			.forEach(function (loanerOrder) {
+				overlappingOrdersStartDates.push(loanerOrder.preparation_start_date);
+				overlappingOrdersEndDates.push(loanerOrder.return_date);
+			});
+
+		overlappingOrdersStartDates.sort();
+		overlappingOrdersEndDates.sort();
+
+		var totalRequests = overlappingOrdersStartDates.length;
+		var assetsReturned = 0;
+		var assetsDeparted = 0;
+		var assetsNeeded = 0;
+
+		while ((assetsDeparted &lt; totalRequests) &amp;&amp; (assetsReturned &lt; totalRequests)) {
+			if (overlappingOrdersStartDates[assetsDeparted] &lt;= overlappingOrdersEndDates[assetsReturned]) {
+				assetsNeeded += 1;
+				assetsDeparted += 1;
+			} else if (overlappingOrdersStartDates[assetsDeparted] &gt; overlappingOrdersEndDates[assetsReturned]) {
+				assetsNeeded -= 1;
+				assetsReturned += 1;
+			}
+			if (assetsNeeded &gt; computersAvailable) {
+				return false;
+			}
+		}
+		return true;
+	},
+
+    getInStockComputerLoanerAssetsCount: function(location, model) {
+        var ga = new GlideAggregate("alm_hardware");
+        ga.addEncodedQuery("model="+model+"^location="+location+"^install_status=6^asset_function=loaner^stockroom.location="+location);
+        ga.addAggregate('SUM', 'quantity');
+        ga.query();
+        if (ga.next()) {
+           return parseInt(ga.getAggregate('SUM', 'quantity'), 10);
+        }
+    },
+	
+	getModelsWithLoanerComputers: function (location) {
+		var filter;
+		var modelsarray = [];
+		var assetsGa = new GlideAggregate('alm_hardware');
+		assetsGa.addEncodedQuery("location="+location+"^install_status=6^asset_function=loaner^stockroom.location="+location);
+		assetsGa.query();
+		while (assetsGa.next()) {
+			modelsarray.push(assetsGa.getValue('model'));
+		}
+		
+		filter = 'sys_idIN' + modelsarray;
+		return filter;
+	},
+	triggerLoanerFlow: function (loanerOrder) {
+		var defaultFlow = 'sn_hamp.loaner_computer_request_flow';
+		var LOANER_DECISION_ID = 'f9a23e38739310107e88ef66fbf6a7db';
+		var decisionInputs = {};
+		decisionInputs.loaner_asset_order = loanerOrder.sys_id;
+		var flow = HAMUtils.getFlowFromDecisionTable(LOANER_DECISION_ID, decisionInputs, defaultFlow);
+		var inputs = {};
+		inputs.current = loanerOrder;
+		inputs.table_name = 'sn_hamp_loaner_asset_order';
+		var flowContextID = sn_hamp.HAMUtils.triggerFlowAsyncronously(flow, inputs);
+		if (!gs.nil(flowContextID)) {
+			new global.GlideQuery(HampLoanerUtils.LOANER_ORDER_TABLE)
+				.where('sys_id', loanerOrder.sys_id)
+				.update({
+					flow_context: flowContextID,
+				});
+		}
+	},
+
+    type: 'ReserveComputerUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-29 10:09:03&lt;/sys_created_on&gt;&lt;sys_id&gt;75bd911347e40e500aeaa144846d4333&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;ReserveComputerUtils&lt;/sys_name&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_75bd911347e40e500aeaa144846d4333&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-18 15:19:22&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-62452431</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>3c65454c1baa4a1062f8ea46624bcb30</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc1441b0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>ReserveComputerUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>f968f000d4aa4a1077f8d7c5ea625998</update_guid>
+<update_guid_history>f968f000d4aa4a1077f8d7c5ea625998:-62452431,3a615f0512090610c0058dc0b17f6627:-62452431,330826c504450610cf4b74a534a9047a:1551784657,7d24e68127450610fbe1e5d232211184:-2069745327,4be3e28114450610ec0268fb842cca1b:-819932591,0e622a01a1450610154a9a0ba7b85ab9:1551784657,0d4d8a2b74e44e50ad7ceeec49b95820:-807755364,d36a295f72e40e502629ca43d29f6e66:694421821,90496ddbe2e40e50d2ed3fa22d0e8fa2:1037833975,04f7259b41e40e5078f3df14006bde95:-2144253136,4e27255b6de40e505d58308c8c720543:-1847423798,1eb5691bbae40e5037f4eb480d4185e4:-1509120374,acefd95371e40e508a943d3536a76df4:-1455846081,fbcdd11383e40e50cbeed305a87bca65:-466107940,79cd91134de40e501d76cae74704b60b:1866886063</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_bf25d7dc47a082500aeaa144846d4327</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.EscalateIncidentUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Métodos útiles para determinar si un incidente puede ser escalado o no y el grupo al que debe ser escalado.&lt;/description&gt;&lt;name&gt;EscalateIncidentUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var EscalateIncidentUtils = Class.create();
+EscalateIncidentUtils.prototype = {
+    initialize: function() {},
+
+    esEscalable: function(subcategoria, nivel) {
+        var grGroup = new GlideRecord('x_atsl_escalado_in_escalado_de_incidentes');
+        grGroup.addQuery("nivel", parseInt(nivel) + 1);
+        grGroup.addQuery("subcategoria", "CONTAINS", subcategoria);
+        grGroup.query();
+
+        if (grGroup.next()) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+
+    getGrupoAsignacion: function(subcategoria, nivel) {
+        var grGroup = new GlideRecord('x_atsl_escalado_in_escalado_de_incidentes');
+        grGroup.addQuery("nivel", nivel);
+        grGroup.addQuery("subcategoria", "CONTAINS", subcategoria);
+        grGroup.query();
+
+        if (grGroup.next()) {
+            return grGroup.getValue("grupo");
+        } else {
+            return null;
+        }
+    },
+	
+	getGrupo: function(id){
+		var grGroup = new GlideRecord('sys_user_group');
+		var returnValue = grGroup.get(id);
+		if (returnValue){
+			return grGroup;
+		}else {
+			return null;
+		}
+	},
+
+    type: 'EscalateIncidentUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-20 11:11:26&lt;/sys_created_on&gt;&lt;sys_id&gt;bf25d7dc47a082500aeaa144846d4327&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;EscalateIncidentUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_bf25d7dc47a082500aeaa144846d4327&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-14 09:44:07&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1164769794</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>7465454c1baa4a1062f8ea46624bcb31</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc144a00000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>EscalateIncidentUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>7d68b400e1aa4a10cf758fedc32b8148</update_guid>
+<update_guid_history>7d68b400e1aa4a10cf758fedc32b8148:1164769794,955e51b7ef3c0e104e2bf921c41919ad:1164769794,9bb98e1913e842507c8c265a05b09433:568329014,99903d4d8b6806500ecd17a26779e0c0:1786048588,ce3545c12ce40650994c0f7cdce6293c:1857710523,90d401c1b8e4065023db9891367c9d66:1027653772,2b4409819de40650a5142e85d25e7af5:1857710523,86b953d0a8e08250a2ae9459c3536436:1155110153,fcf71f50dce08250119cbfe942b9b4ad:8044688,9a57d350e0e08250c7918510206382cd:-2130194104,b3b51bdc12a08250c3d5e0718a03af75:241684913</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_420ae5c5476806500aeaa144846d4382</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.EscalateIncidentUtilsAjax&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;EscalateIncidentUtilsAjax&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var EscalateIncidentUtilsAjax = Class.create();
+EscalateIncidentUtilsAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	esEscalable: function(){
+		var subcategoria = this.getParameter("sysparm_subcategoria");
+		var nivel = this.getParameter("sysparm_nivel");
+		return new EscalateIncidentUtils().esEscalable(subcategoria, nivel);
+	},
+    type: 'EscalateIncidentUtilsAjax'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 11:20:53&lt;/sys_created_on&gt;&lt;sys_id&gt;420ae5c5476806500aeaa144846d4382&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;EscalateIncidentUtilsAjax&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_420ae5c5476806500aeaa144846d4382&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-22 11:20:53&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1164709392</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>7865454c1baa4a1062f8ea46624bcb30</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc143fa0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>EscalateIncidentUtilsAjax</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>3568f00035aa4a109a9dda9cc1bf5797</update_guid>
+<update_guid_history>3568f00035aa4a109a9dda9cc1bf5797:-1164709392,f11ba50945680650f3d5e53e90f70286:-1164709392</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_a5958c041b5d4e1062f8ea46624bcb30</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_hamp.GetReturnStockroomUtilsAjax&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetReturnStockroomUtilsAjax&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetReturnStockroomUtilsAjax = Class.create();
+GetReturnStockroomUtilsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getReturnStockroom: function(){
+		var asset = this.getParameter("sysparm_asset");
+		return "hola";
+		return new GetReturnStockroomUtils().getReturnStockroom(asset);
+	},
+
+    type: 'GetReturnStockroomUtilsAjax'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-27 08:13:13&lt;/sys_created_on&gt;&lt;sys_id&gt;a5958c041b5d4e1062f8ea46624bcb30&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetReturnStockroomUtilsAjax&lt;/sys_name&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a5958c041b5d4e1062f8ea46624bcb30&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-27 09:30:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1244328389</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>b065454c1baa4a1062f8ea46624bcb31</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc144780000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>GetReturnStockroomUtilsAjax</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>3968b4001aaa4a107761e344feed4747</update_guid>
+<update_guid_history>3968b4001aaa4a107761e344feed4747:-1244328389,2de75c84659d4e1062fd974fab7e3790:-1244328389,b43688446e5d4e1057d4aa47cf828c5c:2062090576</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_3d46c8441b5d4e1062f8ea46624bcba2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_hamp.GetReturnStockroomUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetReturnStockroomUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetReturnStockroomUtils = Class.create();
+GetReturnStockroomUtils.prototype = {
+    initialize: function() {},
+
+    getReturnStockroom: function(assetId) {
+        var asset = new GlideRecord("alm_asset");
+        var returnValue = asset.get(assetId);
+
+        if (returnValue) {
+			var stockroom = new GlideRecord("alm_stockroom");
+            if (asset.location != null) {
+				returnValue=stockroom.get("location",asset.location);
+				if (returnValue){
+					return stockroom;
+				}
+            } 
+			returnValue=stockroom.get("location.name","Asturias");
+			if (returnValue){
+				return stockroom;
+			} else{
+				return null;
+			}
+        }
+
+    },
+
+    type: 'GetReturnStockroomUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-27 08:26:49&lt;/sys_created_on&gt;&lt;sys_id&gt;3d46c8441b5d4e1062f8ea46624bcba2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetReturnStockroomUtils&lt;/sys_name&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_3d46c8441b5d4e1062f8ea46624bcba2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-27 08:26:49&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-149652267</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>b465454c1baa4a1062f8ea46624bcb30</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc143d60000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>GetReturnStockroomUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>fd68f00087aa4a100b5a475ff68e6595</update_guid>
+<update_guid_history>fd68f00087aa4a100b5a475ff68e6595:-149652267,7f4908088e5d4e10dd6fa6dfc39ed04a:-149652267</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_28e012fe1b1dc21018398485604bcba5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GetStockroomUtilsAjax&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetStockroomUtilsAjax&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetStockroomUtilsAjax = Class.create();
+GetStockroomUtilsAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	getStockroom: function(){
+		return new GetStockroomUtils().getStockroom();
+		
+	},
+
+    type: 'GetStockroomUtilsAjax'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 07:25:12&lt;/sys_created_on&gt;&lt;sys_id&gt;28e012fe1b1dc21018398485604bcba5&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetStockroomUtilsAjax&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_28e012fe1b1dc21018398485604bcba5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-05 08:33:17&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>603077748</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>bc65454c1baa4a1062f8ea46624bcb2f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc143230000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>GetStockroomUtilsAjax</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>f568f00008aa4a107094cc30a479b294</update_guid>
+<update_guid_history>f568f00008aa4a107094cc30a479b294:603077748,f5112236a49dc21062027a675d558e65:603077748,1e90e2f2429dc210b333a165015020e0:1321069898,45afde72809dc2109ba62568d31a5468:1511361164,d9b2de32425dc210e462a800ae2e36be:1731345460,b492de329c5dc210daba1875e6b3d06b:-1646926828,8d815efecb1dc2108509fb4ecae826e6:604251124</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_f50f067e1b1dc21018398485604bcbc6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GetStockroomUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetStockroomUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetStockroomUtils = Class.create();
+GetStockroomUtils.prototype = {
+    initialize: function() {
+    },
+
+	getStockroom: function(){
+
+		var result = null;
+		var obj = {};
+		if (gs.getUser().isMemberOf("Unidad técnica de la escuela de Ingeniería Informática")){
+			var stockroom = new GlideRecord("alm_stockroom");
+			var exist = stockroom.get("name","Escuela de Ingeniería Informática");
+			if (exist){
+				result= stockroom.getUniqueValue();
+				obj.stockroom = result;
+			}
+		} else if(gs.getUser().isMemberOf("Unidad técnica de la facultad de Biología")){
+			var stockroom = new GlideRecord("alm_stockroom");
+			var exist = stockroom.get("name","Facultad de Biología");
+			if (exist){
+				result= stockroom.getUniqueValue();
+				obj.stockroom = result;
+			}
+		}
+		
+		return JSON.stringify(obj);
+
+	},
+
+    type: 'GetStockroomUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 07:21:32&lt;/sys_created_on&gt;&lt;sys_id&gt;f50f067e1b1dc21018398485604bcbc6&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetStockroomUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f50f067e1b1dc21018398485604bcbc6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-05 08:33:21&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1873556466</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>bc65454c1baa4a1062f8ea46624bcb31</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc1450e0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>GetStockroomUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>bd68b4004baa4a10eaaf67d175d2454c</update_guid>
+<update_guid_history>bd68b4004baa4a10eaaf67d175d2454c:-1873556466,76112236389dc21049c09427e2959f6a:-1873556466,dd4d5abe365dc210facf99c308a4f4a4:-1435444058,f76452b2e15dc210c623922f6cee6b09:381018325,2da2de32c55dc2107907f666abf24eb8:1010493188,7b821e32fb5dc210b356ebc818fefea1:1748742948,03a012fe141dc21045b560632ea2039c:1432911556</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_f01c22f21bddc21018398485604bcbd7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GetBuildingUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetBuildingUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetBuildingUtils = Class.create();
+GetBuildingUtils.prototype = {
+    initialize: function() {
+    },
+
+	getBuilding: function(locationId){
+		
+		var obj = {};
+
+		var space = new GlideRecord("sn_wsd_core_space");
+		if (space.get(locationId)){
+			obj.building = space.getValue("building");
+			return JSON.stringify(obj);
+		}
+
+		return JSON.stringify(obj);
+	},
+
+	checkBuilding: function(buildingId){
+		var obj = {};
+
+		if (gs.getUser().isMemberOf("Unidad técnica de la escuela de Ingeniería Informática")){
+			var group = new GlideRecord("sys_user_group");
+			if (group.get("name","Unidad técnica de la escuela de Ingeniería Informática")){ // Escuela de Ingeniería Informática
+				if (group.getValue("u_edificio")==buildingId){
+					obj.isValid = true;
+				}else {
+					obj.isValid = false;
+				}
+				return JSON.stringify(obj);
+			}
+		} else if (gs.getUser().isMemberOf("Unidad técnica de la facultad de Biología")){ //Facultad de Biología
+			var group = new GlideRecord("sys_user_group");
+			if (group.get("name","Unidad técnica de la facultad de Biología")){
+				if (group.getValue("u_edificio")==buildingId){
+					obj.isValid = true;
+				}else {
+					obj.isValid = false;
+				}
+				return JSON.stringify(obj);
+			}
+		} else { // unidad tecnica central
+			obj.isValid = true;
+			return JSON.stringify(obj);
+		}
+
+		return JSON.stringify(obj);
+	},
+
+    type: 'GetBuildingUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-05 09:28:25&lt;/sys_created_on&gt;&lt;sys_id&gt;f01c22f21bddc21018398485604bcbd7&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetBuildingUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f01c22f21bddc21018398485604bcbd7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-23 18:23:18&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1570021290</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>f865454c1baa4a1062f8ea46624bcb31</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc144ed0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>GetBuildingUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>7968b400e5aa4a106c7bb5e931e83c4b</update_guid>
+<update_guid_history>7968b400e5aa4a106c7bb5e931e83c4b:1570021290,d8c451b0e3718e10ac009b9bbb1d65a0:1570021290,e3028bba1711061078f68b8a109468ea:-2018039195,05c1c3ba081106104ecb9e1e3a33ab6e:-589314150,c23ff6f6f5110610893ff5b1e113fb8a:-1023579882,00dc3276ce1106103bbf633651a73103:94642612,3c8bfaf21711061069982672d82dab27:-421857895,894bb6f2e111061049818fa6e0127dc7:58330639,5aa8fa32f5110610ba990fdf0a671f5b:-59331551,c18736fec2ddc2100636cb266a795a57:370290864,9b07f6bea4ddc210a82ec326624f2314:1790696434,cd133eba6bddc2100af47fe77e9ecaa6:674989449,a9e276bad3ddc210012565c7a98e07d8:1817951373,91c0763a78ddc210f54ea9163c669462:1330464115,fdbd2a367cddc2106d3e545944e16171:1965222472</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_85a1011347640e500aeaa144846d4377</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_hamp.ReserveComputer&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;ReserveComputer&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var ReserveComputer = Class.create();
+ReserveComputer.prototype = {
+    initialize: function() {},
+	
+	isALoanerComputerAvailableBetweenDates: function(location, fromStartDate, toReturnDate) {
+		var computersAvailable = new sn_hamp.ReserveComputer().getInStockComputerLoanerAssetsCount(location);
+		
+		if (computersAvailable == 0){
+			return false;
+		}
+		
+		var startDate = String(fromStartDate);
+		var returnDate = String(toReturnDate);
+		var leadTimeInDays = parseInt(2,10);
+		
+		var preparationStartDate = HampLoanerUtils.getPreparationStartDate(startDate, leadTimeInDays);
+		
+		var overlappingOrdersStartDates = [preparationStartDate];
+		var overlappingOrdersEndDates = [returnDate];
+
+		var overlappingOrdersGq = new global.GlideQuery('sn_hamp_loaner_asset_order')
+			.where('location', location)
+			.where('is_waitlisted', false)
+			.where('stage', '!=', HampLoanerUtils.STAGE_COMPLETED)
+			.where('stage', '!=', HampLoanerUtils.STAGE_CANCELLED);
+		overlappingOrdersGq = HampLoanerUtils.addLoanerOrdersOverlapQuery(
+			overlappingOrdersGq,
+			startDate,
+			returnDate,
+			leadTimeInDays,
+			true /* isGlideQuery */
+		);
+
+		overlappingOrdersGq.select('preparation_start_date', 'return_date')
+			.forEach(function (loanerOrder) {
+				overlappingOrdersStartDates.push(loanerOrder.preparation_start_date);
+				overlappingOrdersEndDates.push(loanerOrder.return_date);
+			});
+
+		overlappingOrdersStartDates.sort();
+		overlappingOrdersEndDates.sort();
+
+		var totalRequests = overlappingOrdersStartDates.length;
+		var assetsReturned = 0;
+		var assetsDeparted = 0;
+		var assetsNeeded = 0;
+
+		while ((assetsDeparted &lt; totalRequests) &amp;&amp; (assetsReturned &lt; totalRequests)) {
+			if (overlappingOrdersStartDates[assetsDeparted] &lt;= overlappingOrdersEndDates[assetsReturned]) {
+				assetsNeeded += 1;
+				assetsDeparted += 1;
+			} else if (overlappingOrdersStartDates[assetsDeparted] &gt; overlappingOrdersEndDates[assetsReturned]) {
+				assetsNeeded -= 1;
+				assetsReturned += 1;
+			}
+			if (assetsNeeded &gt; computersAvailable) {
+				return false;
+			}
+		}
+		return true;
+	},
+
+    getInStockComputerLoanerAssetsCount: function(location) {
+        var ga = new GlideAggregate("alm_hardware");
+        ga.addEncodedQuery("location="+location+"^install_status=6^stockroom.location="+location);
+        ga.addAggregate('SUM', 'quantity');
+        ga.query();
+        if (ga.next()) {
+           return parseInt(ga.getAggregate('SUM', 'quantity'), 10);
+        }
+    },
+	
+	getModelsWithLoanerComputers: function (location) {
+		var filter;
+		var modelsarray = [];
+		var assetsGa = new GlideAggregate('alm_hardware');
+		assetsGa.addEncodedQuery("location="+location+"^install_status=6^stockroom.location="+location);
+		assetsGa.query();
+		while (assetsGa.next()) {
+			modelsarray.push(assetsGa.getValue('model.sys_id'));
+		}
+		
+		filter = 'sys_idIN' + modelsarray;
+		return filter;
+	},
+
+    type: 'ReserveComputer'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-29 08:08:47&lt;/sys_created_on&gt;&lt;sys_id&gt;85a1011347640e500aeaa144846d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;ReserveComputer&lt;/sys_name&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_85a1011347640e500aeaa144846d4377&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-29 10:08:44&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-153605853</payload_hash>
+<remote_update_set display_value="LPG Inclusiones de script">b865454c1baa4a1062f8ea46624bcb2f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:07:48</sys_created_on>
+<sys_id>fc65454c1baa4a1062f8ea46624bcb30</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc1444f0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:07:48</sys_updated_on>
+<table/>
+<target_name>ReserveComputer</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>3168f0003eaa4a100334e93d87b1aa9a</update_guid>
+<update_guid_history>3168f0003eaa4a100334e93d87b1aa9a:-153605853,49bd9113f7e40e50b906d1c51b324303:-153605853,4749dddb39a40e50aab1725cf91bcdec:676044724,0a9811dbf3a40e503563d0d145d7bcd6:-1879715392,08e151578ba40e502a0fd159b9a197ef:1309708019,0042c513a9640e507ab6403a7652dca0:-2098912700</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
