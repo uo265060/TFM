@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:11:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Políticas de IU</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7289f0401baa4a1062f8ea46624bcbc7</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>6526018c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_08ad08601be9821062f8ea46624bcb0f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="alm_license"&gt;install_status=1^EQ&lt;item display_value="In use" endquery="false" field="install_status" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el estado es "En uso", la fecha de inicio y la fecha de fin son visibles&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-10 08:19:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;08ad08601be9821062f8ea46624bcb0f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el estado es "En uso", la fecha de inicio y la fecha de fin son visibles&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_08ad08601be9821062f8ea46624bcb0f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:12:36&lt;/sys_updated_on&gt;&lt;table&gt;alm_license&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1757720702</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>2526018c1baa4a1062f8ea46624bcb71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc8668b0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table>alm_license</table>
+<target_name>LPG - Si el estado es "En uso", la fecha de inicio y la fecha de fin son visibles</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>0c3a30806eaa4a10112c8e18085b892a</update_guid>
+<update_guid_history>0c3a30806eaa4a10112c8e18085b892a:1757720702,218e21ca81ed821006f1fb82001c9f6e:1757720702,a9ddc860a5e982101e746da7110fd0b9:-1605265526</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_ce197a2e47f80a100aeaa144846d436f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:88526124477442100aeaa144846d43a8ISEMPTY^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Crear incidencia"&gt;3f1dd0320a0a0b99000a53f7604a2ef9&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si la ubicación es vacía, el elemento de configuración es sólo lectura&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-10 19:09:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ce197a2e47f80a100aeaa144846d436f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si la ubicación es vacía, el elemento de configuración es sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_ce197a2e47f80a100aeaa144846d436f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:24:21&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>919831625</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>2926018c1baa4a1062f8ea46624bcb70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869ae0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG - Si la ubicación es vacía, el elemento de configuración es sólo lectura</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>543af080e8aa4a10fc21b64c3feb3e87</update_guid>
+<update_guid_history>543af080e8aa4a10fc21b64c3feb3e87:919831625,b931bd4edfed82108ebfa0f0ce8be31e:919831625,3df1c49b02154610a05a13eb1b6c08e8:1187283196,dbe9ba6e02f80a1045e757b81665f782:1282642321,cc59fa2e75f80a106460339542fbec46:1739793287</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_56b83eea47f80a100aeaa144846d43b9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:eb6e5c8647e8c6500aeaa144846d4398=infraestructuratecnologica^IO:1ece14c647e8c6500aeaa144846d4309LIKEsalas^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Crear incidencia"&gt;3f1dd0320a0a0b99000a53f7604a2ef9&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si la subcategoría es "Salas de informática", mostrar el campo "Elemento de configuración"&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-10 19:06:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;56b83eea47f80a100aeaa144846d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si la subcategoría es "Salas de informática", mostrar el campo "Elemento de configuración"&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_56b83eea47f80a100aeaa144846d43b9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:22:52&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>908249376</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>2d26018c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc868550000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG - Si la subcategoría es "Salas de informática", mostrar el campo "Elemento de configuración"</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>003af08060aa4a101d06628850374977</update_guid>
+<update_guid_history>003af08060aa4a101d06628850374977:908249376,1ce0394e95ed8210964395b15442ac8e:908249376,2a02489b621546107430c5984de56d29:1677659251,18e8b22e6cf80a10067a93fe240ab675:1589916718,94e8b22e4cf80a10d8652081ae0bc372:605704000</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_4e2e2b9a1b8a4a1018398485604bcb6e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;category=campusvirtual^EQ&lt;item display_value="Campus virtual" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="campusvirtual"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG Si la categoría es "Campus Virtual", mostrar el campo "Servicio"&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 07:40:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4e2e2b9a1b8a4a1018398485604bcb6e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Si la categoría es "Campus Virtual", mostrar el campo "Servicio"&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_4e2e2b9a1b8a4a1018398485604bcb6e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-11 07:40:54&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1304434900</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>3126018c1baa4a1062f8ea46624bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc867030000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Si la categoría es "Campus Virtual", mostrar el campo "Servicio"</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>443af080a7aa4a1082ed5c105a37fe71</update_guid>
+<update_guid_history>443af080a7aa4a1082ed5c105a37fe71:1304434900,bd5e6b9a0a8a4a103abd1aec61d72b7f:1304434900</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_f1a3227e47384a100aeaa144846d4300</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;state=-1^EQ&lt;item display_value="Implement" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el estado es "Implementar", Campo "Asignado a" es obligatorio&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-11 12:13:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f1a3227e47384a100aeaa144846d4300&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el estado es "Implementar", Campo "Asignado a" es obligatorio&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f1a3227e47384a100aeaa144846d4300&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 06:59:43&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2108381025</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>3526018c1baa4a1062f8ea46624bcb74</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc86a7a0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG - Si el estado es "Implementar", Campo "Asignado a" es obligatorio</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>d43af08036aa4a10d523f11e1e8e448f</update_guid>
+<update_guid_history>d43af08036aa4a10d523f11e1e8e448f:2108381025,8d9ba98664ed8210853b474868a82275:2108381025,925ba18608ed8210c4127819c22d8798:2076931361,21914c5bf91546108b438c1ee6d311f1:2013889232,b7aff68fa7f48a10ece95800a4552dff:-245741827,5a8b3e8bedf48a10954c63b300bb8ca2:-652127384,0b0bb28bbef48a10791ae99019d26698:1217105053,987af24bbef48a10839c5f2bbd610871:498680968,23b32a7e51384a10f995f6bb98a4cb1b:-245741827</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_c5819b0347788a100aeaa144846d43e5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;state=3^EQ&lt;item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG Si el estado es cerrado, los campos no son editables&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-12 10:12:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c5819b0347788a100aeaa144846d43e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Si el estado es cerrado, los campos no son editables&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_c5819b0347788a100aeaa144846d43e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 10:10:45&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1202364740</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>3926018c1baa4a1062f8ea46624bcb73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869460000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Si el estado es cerrado, los campos no son editables</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>883af080fcaa4a104aad050fe78c2581</update_guid>
+<update_guid_history>883af080fcaa4a104aad050fe78c2581:-1202364740,a3f0ccd712154610fd75ba9067abf531:1911865362,d6b1db0322788a10f52a95440ff1d049:95572124</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_76e9d628473842100aeaa144846d43f1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;subcategory=salasdeinformatica^ORsubcategory=ordenadoresprestados^EQ&lt;item display_value="Salas de informática" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="salasdeinformatica"/&gt;&lt;item display_value="Ordenadores prestados por la universidad" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="true" value="ordenadoresprestados"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Mostrar campo "Elemento de configuración" cuando la subcategoría es "Salas de informática" u "Ordenadores prestados"&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-04 11:44:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;76e9d628473842100aeaa144846d43f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Mostrar campo "Elemento de configuración" cuando la subcategoría es "Salas de informática" u "Ordenadores prestados"&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_76e9d628473842100aeaa144846d43f1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-15 22:42:29&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1645060381</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>3d26018c1baa4a1062f8ea46624bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc868af0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>incident</table>
+<target_name>LPG - Mostrar campo "Elemento de configuración" cuando la subcategoría es "Salas de informática" u "</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>003af0808daa4a1077d4420a492a4b7b</update_guid>
+<update_guid_history>003af0808daa4a1077d4420a492a4b7b:1645060381,57032bf7318ece10b4611173a3c887e4:1645060381,0459e4e596ca46106326c127b00ddead:-723309795,c779e9065aed8210827b0e355918cc9e:384039508,a3b3841fe21546105a91f355ba330aeb:-1009621004,4570e2ecc83842102981d30ed6718339:1934470682,cc1a1a2880384210c21451a52a731214:-1342999948</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_ee608726473c0a100aeaa144846d4338</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:9c3372a647f80a100aeaa144846d4390ISEMPTY^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Mantenimiento de hardware"&gt;9e2f2a6247f80a100aeaa144846d4344&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG "Elemento de configuración" activado si aula seleccionada&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-10 19:40:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ee608726473c0a100aeaa144846d4338&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG "Elemento de configuración" activado si aula seleccionada&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_ee608726473c0a100aeaa144846d4338&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 10:13:37&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-149336276</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>6126018c1baa4a1062f8ea46624bcb71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc86a380000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG "Elemento de configuración" activado si aula seleccionada</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>5c3af08053aa4a10b03361b69420028c</update_guid>
+<update_guid_history>5c3af08053aa4a10b03361b69420028c:-149336276,a2bb78aa04adc210ceedfe4329572fe3:-149336276,7da1409b5915461004ed43b0555ea272:-513636564,37808b26993c0a10b49b502405820ff2:519880625</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_c6ebb82e1b2d061018398485604bcba1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:4eebb82e1b2d061018398485604bcb93ISEMPTY^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Mantenimiento de hardware"&gt;69ebb82e1b2d061018398485604bcb32&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG "Elemento de configuración" activado si aula seleccionada&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-16 16:48:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c6ebb82e1b2d061018398485604bcba1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG "Elemento de configuración" activado si aula seleccionada&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_c6ebb82e1b2d061018398485604bcba1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-16 16:48:25&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-146294257</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>6526018c1baa4a1062f8ea46624bcb70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869730000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG "Elemento de configuración" activado si aula seleccionada</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>cc3af0806eaa4a10ef91a14f7f030a83</update_guid>
+<update_guid_history>cc3af0806eaa4a10ef91a14f7f030a83:-146294257,9aebb82e792d0610cd43f9c3c7b398b7:1375133485</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_51d04685478106100aeaa144846d43f0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:eb6e5c8647e8c6500aeaa144846d4398ISEMPTY^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Crear incidencia"&gt;3f1dd0320a0a0b99000a53f7604a2ef9&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si la categoría es vacía, el campo "Elemento de configuración" es sólo lectura&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-18 09:27:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;51d04685478106100aeaa144846d43f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si la categoría es vacía, el campo "Elemento de configuración" es sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_51d04685478106100aeaa144846d43f0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:26:55&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2033529468</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>6926018c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc8680b0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG - Si la categoría es vacía, el campo "Elemento de configuración" es sólo lectura</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>443af080a8aa4a10b05ef8481967e474</update_guid>
+<update_guid_history>443af080a8aa4a10b05ef8481967e474:2033529468,a7c1398e5eed8210e5cc52b3eb22474d:2033529468,270cf7c33b1546103eaaf1321c4109f6:-2014028689,d9d0468559810610c3de7b0cc9a27ff8:-85511623,d9d0468559810610c3de7b0cc9a27ff8:-85511623</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_f19f967a47384a100aeaa144846d436e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;state=-2^type=normal^NQtype=standard^NQtype=emergency^state=-2^EQ&lt;item display_value="Scheduled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-2"/&gt;&lt;item display_value="Normal" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="normal"/&gt;&lt;item display_value="Standard" endquery="false" field="type" goto="false" newquery="true" operator="=" or="false" value="standard"/&gt;&lt;item display_value="Emergency" endquery="false" field="type" goto="false" newquery="true" operator="=" or="false" value="emergency"/&gt;&lt;item display_value="Scheduled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Fechas planeadas obligatorias&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-11 11:56:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f19f967a47384a100aeaa144846d436e&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Fechas planeadas obligatorias&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f19f967a47384a100aeaa144846d436e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-10 11:34:33&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1972111261</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>7126018c1baa4a1062f8ea46624bcb74</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc86a590000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG - Fechas planeadas obligatorias</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>903af08092aa4a104ee29a7b16d5bf8e</update_guid>
+<update_guid_history>903af08092aa4a104ee29a7b16d5bf8e:-1972111261,263a97c6330a0a10911accc582943e7b:-1972111261,961a5f86530a0a1087ebbe98b6db7482:-1986832343,55d8df46ef0a0a108d09a63ec4238cd3:-1017516253,7ddca9c67aed8210dcfed6c21ab90d8a:-1331394689,06210c1b031546100c33cdf12913d827:-596346791,d29b4f8b6b388a105f35751c155c8473:1669632847,c9365f7adcf84a106ceea50c45295c3a:517567559,cdb5577a83f84a10298c0bf9a5b76573:1871725082,e4cf5a7a53384a1090fb486a595a0b06:1349447643</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_9f27e27247784a100aeaa144846d436a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;state!=-5^EQ&lt;item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="-5"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el estado no es "Nuevo", la categoría es sólo lectura&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-11 12:29:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9f27e27247784a100aeaa144846d436a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el estado no es "Nuevo", la categoría es sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_9f27e27247784a100aeaa144846d436a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:01:37&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1967640042</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>7526018c1baa4a1062f8ea46624bcb73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869070000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG - Si el estado no es "Nuevo", la categoría es sólo lectura</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>cc3af0801eaa4a102675863fed6b837e</update_guid>
+<update_guid_history>cc3af0801eaa4a102675863fed6b837e:-1967640042,780ca986f9ed821083096fb1c546612a:-1967640042,9c818c5b6f1546108569f2c753e3a702:-813886087,24676672d3784a104b479d4f7bc9395c:413438362</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_5c1780331be94a1018398485604bcb66</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG Grupo de asignación editable&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-20 10:10:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5c1780331be94a1018398485604bcb66&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Grupo de asignación editable&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_5c1780331be94a1018398485604bcb66&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-20 10:10:23&lt;/sys_updated_on&gt;&lt;table&gt;problem&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-110058279</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>7926018c1baa4a1062f8ea46624bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc868740000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>problem</table>
+<target_name>LPG Grupo de asignación editable</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>443af080c1aa4a10917d463e4364e678</update_guid>
+<update_guid_history>443af080c1aa4a10917d463e4364e678:-110058279,6227043363e94a103760f4da231d8d17:-110058279</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_4acf550d472806500aeaa144846d43f8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;u_nivel!=0^assigned_toISEMPTY^NQincident_state=7^ORincident_state=8^EQ&lt;item endquery="false" field="u_nivel" goto="false" newquery="false" operator="!=" or="false" value="0"/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item display_value="Closed" endquery="false" field="incident_state" goto="false" newquery="true" operator="=" or="false" value="7"/&gt;&lt;item display_value="Canceled" endquery="false" field="incident_state" goto="false" newquery="false" operator="=" or="true" value="8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Campos categoría y subcategoría sólo lectura cuando nivel&amp;gt;0&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 10:32:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4acf550d472806500aeaa144846d43f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Campos categoría y subcategoría sólo lectura cuando nivel&amp;gt;0&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_4acf550d472806500aeaa144846d43f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 06:44:39&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2044022347</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>7d26018c1baa4a1062f8ea46624bcb71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc866e70000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>incident</table>
+<target_name>LPG - Campos categoría y subcategoría sólo lectura cuando nivel&gt;0</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>003af0808daa4a108b466539b16c3070</update_guid>
+<update_guid_history>003af0808daa4a108b466539b16c3070:-2044022347,4028ad8209ed821056bf950848754e96:-2044022347,3905a7c4eca94210fd762f3ca7276f6b:422569983,68c4085fb51546109d419ccd6fe4144d:1831502513,674629c1e568065041e7cdc89a57b00d:173183290,98326d8dbb2806506257f38ecf82f1ba:-1168133126,86b1e18d8c280650c24c97bebd27a1bd:173183290,5e91a18d1f280650baebcdd927de2ace:670022782,1e81218d0328065019ce8df199daa0c5:1053500902,5200690dcd280650a40c4e07739fee53:-297015713</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_fc52b0a3473cca100aeaa144846d4378</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions table="problem"&gt;state!=101^assignment_groupISNOTEMPTY^EQ&lt;item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="101"/&gt;&lt;item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el estado no es "Nuevo" y el grupo de asignación no es vacío, el grupo de asignación es sólo lectura&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-13 11:54:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fc52b0a3473cca100aeaa144846d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el estado no es "Nuevo" y el grupo de asignación no es vacío, el grupo de asignación es sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_fc52b0a3473cca100aeaa144846d4378&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-20 10:15:33&lt;/sys_updated_on&gt;&lt;table&gt;problem&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1427443318</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>7d26018c1baa4a1062f8ea46624bcb74</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc86ad20000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>problem</table>
+<target_name>LPG - Si el estado no es "Nuevo" y el grupo de asignación no es vacío, el grupo de asignación es sól</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>183af0809baa4a10fa90807774bfe693</update_guid>
+<update_guid_history>183af0809baa4a10fa90807774bfe693:1427443318,9a584c731ee94a10cd55e213fab5d67d:1427443318,22dde18a05ed8210b1ac7b42b8a23b78:-1075096213,73ada18a18ed8210e7383cd5d5b09f0d:1039435293,eae0c05b9c1546105b59d9a5ac6f1799:-1622312640,928274a37f3cca10daa8725e66006ea5:-543270755</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_c1d04685478106100aeaa144846d43d9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:eb6e5c8647e8c6500aeaa144846d4398=infraestructuratecnologica^IO:eb6e5c8647e8c6500aeaa144846d4398LIKEsalas^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Crear incidencia"&gt;3f1dd0320a0a0b99000a53f7604a2ef9&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si la subcategoría es "Salas de informática", mostrar el campo "Elemento de configuración"&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-18 09:27:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c1d04685478106100aeaa144846d43d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si la subcategoría es "Salas de informática", mostrar el campo "Elemento de configuración"&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_c1d04685478106100aeaa144846d43d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:26:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>34117758</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>a126018c1baa4a1062f8ea46624bcb70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869300000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG - Si la subcategoría es "Salas de informática", mostrar el campo "Elemento de configuración"</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>443af080c8aa4a1018e953b5239a9580</update_guid>
+<update_guid_history>443af080c8aa4a1018e953b5239a9580:34117758,cba1758e4aed8210962c1743270dcd97:34117758,b95c7fc3a71546104014c2383c85588d:-1400025775,89d04685b181061024cd82b218f48ae3:646047589,89d04685b181061024cd82b218f48ae3:646047589</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_dab83eea47f80a100aeaa144846d43b2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:eb6e5c8647e8c6500aeaa144846d4398=infraestructuratecnologica^IO:1ece14c647e8c6500aeaa144846d4309LIKEred^ORIO:1ece14c647e8c6500aeaa144846d4309LIKEsalas^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Crear incidencia"&gt;3f1dd0320a0a0b99000a53f7604a2ef9&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG -Si la subcategoría es "Red" o "Aulas de informática",  mostrar los campos "Ubicación" y "Edificio" son obligatorios&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-10 19:06:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dab83eea47f80a100aeaa144846d43b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG -Si la subcategoría es "Red" o "Aulas de informática",  mostrar los campos "Ubicación" y "Edificio" son obligatorios&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_dab83eea47f80a100aeaa144846d43b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:32:01&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1366495956</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>ad26018c1baa4a1062f8ea46624bcb70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc86a0c0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG -Si la subcategoría es "Red" o "Aulas de informática",  mostrar los campos "Ubicación" y "Edific</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>943af08075aa4a101e5ec861a8b5e48b</update_guid>
+<update_guid_history>943af08075aa4a101e5ec861a8b5e48b:1366495956,5ef23dce9ded8210f6a2b644b847c82c:1366495956,be80f14ed9ed821084a48b7d1d02561c:615914066,9922c89bb6154610c92e531031377383:1897073671,2ce8b22ea4f80a101f9cb65ce075b67a:1676065190,6ce8b22ea8f80a10471bf8453f7c3677:1604463496</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_93c550b31b2d4a1018398485604bcb7b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG Grupo de asignación sólo lectura&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-20 11:14:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;93c550b31b2d4a1018398485604bcb7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Grupo de asignación sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_93c550b31b2d4a1018398485604bcb7b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-20 11:14:56&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1387522498</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>b126018c1baa4a1062f8ea46624bcb73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc868e70000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>incident</table>
+<target_name>LPG Grupo de asignación sólo lectura</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>883af0802baa4a10619d2dea2e7bb47d</update_guid>
+<update_guid_history>883af0802baa4a10619d2dea2e7bb47d:1387522498,c0f590b35d2d4a1022205d352c92642c:1387522498</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_51f9ca7247f44a100aeaa144846d43b3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;category=mantenimientodehardware^ORcategory=seguridad^EQ&lt;item display_value="Mantenimiento de hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="mantenimientodehardware"/&gt;&lt;item display_value="Seguridad" endquery="false" field="category" goto="false" newquery="false" operator="=" or="true" value="seguridad"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el tipo es normal y la categoría es "Mantenimiento de hardware", mostrar el campo "Ubicación"&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-11 10:21:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;51f9ca7247f44a100aeaa144846d43b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el tipo es normal y la categoría es "Mantenimiento de hardware", mostrar el campo "Ubicación"&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_51f9ca7247f44a100aeaa144846d43b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-11 07:44:22&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1836624215</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>b526018c1baa4a1062f8ea46624bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc868320000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG - Si el tipo es normal y la categoría es "Mantenimiento de hardware", mostrar el campo "Ubicació</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>883af0806aaa4a1077538c0bb86ee475</update_guid>
+<update_guid_history>883af0806aaa4a1077538c0bb86ee475:1836624215,942f6bda508a4a1070605a33380eb355:1836624215,797c610a9ced8210544ae59825a8a4be:-1468652580,6451485bd2154610e1c73aafd6f1968c:-1621743002,f11a0e726bf44a10d68b396b6afbcf71:-1514615492</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_2936a23247784a100aeaa144846d4381</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG Planificación obligatorio&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-11 12:24:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2936a23247784a100aeaa144846d4381&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Planificación obligatorio&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_2936a23247784a100aeaa144846d4381&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-19 14:40:34&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>220303398</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>b926018c1baa4a1062f8ea46624bcb71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc866c40000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Planificación obligatorio</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>c83af080d6aa4a1001d5df619df0576e</update_guid>
+<update_guid_history>c83af080d6aa4a1001d5df619df0576e:220303398,ae6bfb9f47690a10fe4d899005a78e7e:220303398,485b779fd3690a10248be5a3198eebc8:-535580175,9574f7978f690a10726ba733639f8c88:-756181249,d0714c5bc2154610f391bd87a01e3f51:220303398,1c66e232e3784a10cd11a3d45c198412:998454420</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hardware Asset Management">6cd246601b9e0010cf95dd33dd4bcb8a</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_f8c140001b5d4e1062f8ea46624bcb60</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions table="sn_hamp_loaner_asset_task"&gt;loaner_order.assetISNOTEMPTY^EQ&lt;item endquery="false" field="loaner_order.asset" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el activo no es vacío, el almacén de devolución es sólo lectura&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-27 07:55:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f8c140001b5d4e1062f8ea46624bcb60&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el activo no es vacío, el almacén de devolución es sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hardware Asset Management" source="sn_hamp"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hardware Asset Management"&gt;6cd246601b9e0010cf95dd33dd4bcb8a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f8c140001b5d4e1062f8ea46624bcb60&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:14:00&lt;/sys_updated_on&gt;&lt;table&gt;sn_hamp_loaner_asset_task&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1511619015</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>b926018c1baa4a1062f8ea46624bcb74</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc86ab40000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>sn_hamp_loaner_asset_task</table>
+<target_name>LPG - Si el activo no es vacío, el almacén de devolución es sólo lectura</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>d03af08095aa4a1013b55577e53c9f92</update_guid>
+<update_guid_history>d03af08095aa4a1013b55577e53c9f92:-1511619015,46dea1ca68ed82107c35c63e1a989877:-1511619015,ce95a93b261502100c6535b6b55a2f88:-2076053057,d9fabf43c31546102dc60380d5996228:-393155478,3fbd004cc65d4e10cb3e717d92eecb3e:18149220,329d4c0c1a5d4e10db3764db1fc95385:299302568,1de44cc0e35d4e106ea70da21b685587:59459908,d3128400ed5d4e105f57c914836e56e8:-1919247916</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_d5e72968477442100aeaa144846d43b2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;subcategory=red^ORsubcategory=salasdeinformatica^EQ&lt;item display_value="Red" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="red"/&gt;&lt;item display_value="Salas de informática" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="true" value="salasdeinformatica"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Mostrar campo "Ubicación" cuando la subcategoría es Red o Salas de informática&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-04 08:06:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d5e72968477442100aeaa144846d43b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Mostrar campo "Ubicación" cuando la subcategoría es Red o Salas de informática&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_d5e72968477442100aeaa144846d43b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 06:47:57&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1054837453</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>bd26018c1baa4a1062f8ea46624bcb73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869e10000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>incident</table>
+<target_name>LPG - Mostrar campo "Ubicación" cuando la subcategoría es Red o Salas de informática</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>103af080f1aa4a104bcf27d2ebd9168a</update_guid>
+<update_guid_history>103af080f1aa4a104bcf27d2ebd9168a:1054837453,a0e82d829aed821080a7e937f56a7db5:1054837453,84a4845fa6154610dea7e4516e153829:1694340933,4b286d688774421042d03fdfa5e8b2af:1526721463</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_11e4e541476806500aeaa144846d4371</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;u_nivel=0^EQ&lt;item endquery="false" field="u_nivel" goto="false" newquery="false" operator="=" or="false" value="0"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Campos categoría y subcategoría obligatorios cuando nivel = 0&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 10:54:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;11e4e541476806500aeaa144846d4371&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Campos categoría y subcategoría obligatorios cuando nivel = 0&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_11e4e541476806500aeaa144846d4371&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 06:45:53&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-487269101</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>e526018c1baa4a1062f8ea46624bcb71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc866aa0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>incident</table>
+<target_name>LPG - Campos categoría y subcategoría obligatorios cuando nivel = 0</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>843af080b4aa4a10e5d810ca69d7e76d</update_guid>
+<update_guid_history>843af080b4aa4a10e5d810ca69d7e76d:-487269101,1a686d82dced8210d46511dfccc60091:-487269101,83d4885fd7154610752718aa00da9188:-2046273543,d805ed415c68065016b6324ad1a4e0ac:-1658232613</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_d1d08685478106100aeaa144846d4353</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:eb6e5c8647e8c6500aeaa144846d4398=infraestructuratecnologica^IO:eb6e5c8647e8c6500aeaa144846d4398LIKEprestados^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Crear incidencia"&gt;3f1dd0320a0a0b99000a53f7604a2ef9&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si la subcategoría es "Ordenadores prestados por la universidad", el campo "Ordenador prestado" es obligatorio y visible&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-18 09:27:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d1d08685478106100aeaa144846d4353&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si la subcategoría es "Ordenadores prestados por la universidad", el campo "Ordenador prestado" es obligatorio y visible&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_d1d08685478106100aeaa144846d4353&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:28:36&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1554859321</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>e926018c1baa4a1062f8ea46624bcb70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869c70000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG - Si la subcategoría es "Ordenadores prestados por la universidad", el campo "Ordenador prestado</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>d83af080ecaa4a1041b2f6be577b5788</update_guid>
+<update_guid_history>d83af080ecaa4a1041b2f6be577b5788:1554859321,0032bd8e0ced82109b6d9af7cc9689d5:1554859321,23ab73c385154610b7e571b1a84fd687:-1043309150,5dd086850c810610b1e1221d91dc385b:-327660522,5dd086850c810610b1e1221d91dc385b:-327660522</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_5dd08685478106100aeaa144846d4303</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:eb6e5c8647e8c6500aeaa144846d4398=infraestructuratecnologica^IO:eb6e5c8647e8c6500aeaa144846d4398LIKEred^ORIO:eb6e5c8647e8c6500aeaa144846d4398LIKEsalas^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Crear incidencia"&gt;3f1dd0320a0a0b99000a53f7604a2ef9&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si la subcategoría es "Red" o "Salas de informática", mostrar el campo "Aula de informática" es obligatorio&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-18 09:27:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5dd08685478106100aeaa144846d4303&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si la subcategoría es "Red" o "Salas de informática", mostrar el campo "Aula de informática" es obligatorio&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_5dd08685478106100aeaa144846d4303&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:32:13&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-520558748</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:08</sys_created_on>
+<sys_id>ed26018c1baa4a1062f8ea46624bcb6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc868920000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:08</sys_updated_on>
+<table/>
+<target_name>LPG - Si la subcategoría es "Red" o "Salas de informática", mostrar el campo "Aula de informática" e</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>c83af08040aa4a1000f7b1b426f42079</update_guid>
+<update_guid_history>c83af08040aa4a1000f7b1b426f42079:-520558748,c1037dce08ed8210ae655703f655253e:-520558748,293cbbc3a915461048dde0ef872d4ae9:747732167,d5d08685aa810610ba68055a2bb7570c:-503921036,d5d08685aa810610ba68055a2bb7570c:-503921036</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_4e4072e247f80a100aeaa144846d4378</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="change_request"&gt;assignment_groupISEMPTY^EQ&lt;item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el grupo de asignación es vacío, el campo "Asignado a" Read-only&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-10 18:29:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4e4072e247f80a100aeaa144846d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el grupo de asignación es vacío, el campo "Asignado a" Read-only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_4e4072e247f80a100aeaa144846d4378&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 06:59:24&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>618093749</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>f126018c1baa4a1062f8ea46624bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc867220000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG - Si el grupo de asignación es vacío, el campo "Asignado a" Read-only</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>883af080d9aa4a10f691343ec1ddb372</update_guid>
+<update_guid_history>883af080d9aa4a10f691343ec1ddb372:618093749,d88ba986caed82106cbeab67cec2f96f:618093749,e4dae946c1ed8210d8cff0ab874a0755:662195411,6b42cc9bf715461003b3662d581deb59:-124780397,676076e25af80a10e4d92e6364273ad4:-1676801133,864072e275f80a104d965a322dc2d87b:-1256345988</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_f6f91fd91b4d061062f8ea46624bcb1b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="sys_user_group"&gt;typeLIKE72cd39ab1b03f11062f8ea46624bcbca^EQ&lt;item endquery="false" field="type" goto="false" newquery="false" operator="LIKE" or="false" value="72cd39ab1b03f11062f8ea46624bcbca"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el tipo es "por centro", entonces el edificio es obligatorio&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-19 10:35:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f6f91fd91b4d061062f8ea46624bcb1b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el tipo es "por centro", entonces el edificio es obligatorio&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f6f91fd91b4d061062f8ea46624bcb1b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 07:12:45&lt;/sys_updated_on&gt;&lt;table&gt;sys_user_group&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1661412547</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>f526018c1baa4a1062f8ea46624bcb74</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc86a970000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>sys_user_group</table>
+<target_name>LPG - Si el tipo es "por centro", entonces el edificio es obligatorio</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>1c3af08012aa4a106a4b094bf8d03a90</update_guid>
+<update_guid_history>1c3af08012aa4a106a4b094bf8d03a90:1661412547,378e61ca55ed8210940245377b86812c:1661412547,5a2bf783f21546109636d9374c43051d:-1698197915,7f1a1fd9e94d0610197c6fb4bfe70fa7:1134657221</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_c6fabab147b086100aeaa144846d436b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="incident"&gt;assignment_groupISEMPTY^EQ&lt;item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG - Si el campo "Grupo de asignación" es vacío, "Asignado a" es sólo lectura&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-08 11:22:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c6fabab147b086100aeaa144846d436b&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG - Si el campo "Grupo de asignación" es vacío, "Asignado a" es sólo lectura&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_c6fabab147b086100aeaa144846d436b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 06:52:07&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>265401683</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>f926018c1baa4a1062f8ea46624bcb73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc869950000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>incident</table>
+<target_name>LPG - Si el campo "Grupo de asignación" es vacío, "Asignado a" es sólo lectura</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>cc3af080f7aa4a105f33c84d54329485</update_guid>
+<update_guid_history>cc3af080f7aa4a105f33c84d54329485:265401683,61d9e90677ed82101e3e34be75de90a3:265401683,4693041f15154610812c1c17cfa407d3:-1574851053,0f7b32f1b8b0861010c0b373c24ad28f:-658950253,a73bfab165b0861007b399d716f2b104:300439355</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_8af6aa6a47b80a100aeaa144846d4320</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;LPG Grupo de asignación Read-only&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-10 17:49:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8af6aa6a47b80a100aeaa144846d4320&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LPG Grupo de asignación Read-only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_8af6aa6a47b80a100aeaa144846d4320&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-06 10:21:29&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>709561562</payload_hash>
+<remote_update_set display_value="LPG Políticas de IU">6526018c1baa4a1062f8ea46624bcb6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:11:09</sys_created_on>
+<sys_id>fd26018c1baa4a1062f8ea46624bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc868ca0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:11:09</sys_updated_on>
+<table>change_request</table>
+<target_name>LPG Grupo de asignación Read-only</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>443af08028aa4a10ea5599ba256db27c</update_guid>
+<update_guid_history>443af08028aa4a10ea5599ba256db27c:709561562,fc73401fff154610f7e34db2b676b222:709561562,b6072e6a39b80a1046124be3390503cb:-989991162</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
