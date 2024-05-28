@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:17:27">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Tablas creadas y modificadas</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>5784c50c1baa4a1062f8ea46624bcb35</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:17:26</sys_created_on>
+<sys_id>f997c5cc1baa4a1062f8ea46624bcbba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:17:26</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_6d48007558b0311095d71ac5466801fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Incident</label><live_feed_enabled>true</live_feed_enabled><name>incident</name><number_ref display_value="INC">3</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Task" name="task">82068cb55830311095d71ac5466801f0</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-08-22 02:09:07</sys_created_on><sys_id>6d48007558b0311095d71ac5466801fe</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Incident</sys_name><sys_package display_value="Incident" source="com.snc.incident">1d48007558b0311095d71ac5466801d5</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_6d48007558b0311095d71ac5466801fe</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-08-22 02:32:13</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1664643581</payload_hash>
+<remote_update_set display_value="LPG Tablas creadas y modificadas">f997c5cc1baa4a1062f8ea46624bcbba</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:17:26</sys_created_on>
+<sys_id>3997c5cc1baa4a1062f8ea46624bcbbb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbff397590000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:17:26</sys_updated_on>
+<table>incident</table>
+<target_name>Incident</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>87f48d0c18aa4a10184620696aaf90d5</update_guid>
+<update_guid_history>87f48d0c18aa4a10184620696aaf90d5:1664643581</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_60afe89a47b4c6100aeaa144846d43c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Conexiones Wifi</label><live_feed_enabled>false</live_feed_enabled><name>u_conexiones_wifi</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-03-09 14:35:26</sys_created_on><sys_id>60afe89a47b4c6100aeaa144846d43c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conexiones WiFi</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_60afe89a47b4c6100aeaa144846d43c4</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-03-09 14:35:26</sys_updated_on><update_access>false</update_access><user_role display_value="u_conexiones_wifi_user" name="u_conexiones_wifi_user">6b01bcda47b4c6100aeaa144846d43e5</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1374189302</payload_hash>
+<remote_update_set display_value="LPG Tablas creadas y modificadas">f997c5cc1baa4a1062f8ea46624bcbba</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:17:26</sys_created_on>
+<sys_id>7597c5cc1baa4a1062f8ea46624bcbbb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbff31f760000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:17:26</sys_updated_on>
+<table>u_conexiones_wifi</table>
+<target_name>Conexiones Wifi</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>2bd40d0c77aa4a1088c97f4d8686d5e5</update_guid>
+<update_guid_history>2bd40d0c77aa4a1088c97f4d8686d5e5:-1374189302,dc11341e23b4c610f2fe2f8293ce3d22:773120234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Escalado Incidencia">a41e30c947a406500aeaa144846d43b1</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_5fdeb40d47a406500aeaa144846d43b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Escalado de incidentes</label><live_feed_enabled>false</live_feed_enabled><name>x_atsl_escalado_in_escalado_de_incidentes</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-02-22 08:07:40</sys_created_on><sys_id>5fdeb40d47a406500aeaa144846d43b4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Escalado de incidentes</sys_name><sys_package display_value="Escalado Incidencia" source="x_atsl_escalado_in">a41e30c947a406500aeaa144846d43b1</sys_package><sys_policy/><sys_scope display_value="Escalado Incidencia">a41e30c947a406500aeaa144846d43b1</sys_scope><sys_update_name>sys_db_object_5fdeb40d47a406500aeaa144846d43b4</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-02-22 10:21:44</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-735127675</payload_hash>
+<remote_update_set display_value="LPG Tablas creadas y modificadas">f997c5cc1baa4a1062f8ea46624bcbba</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:17:26</sys_created_on>
+<sys_id>b197c5cc1baa4a1062f8ea46624bcbbb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbff31fd60000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:17:26</sys_updated_on>
+<table>x_atsl_escalado_in_escalado_de_incidentes</table>
+<target_name>Escalado de incidentes</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>6bd40d0ce8aa4a102941097cb1e6dae9</update_guid>
+<update_guid_history>6bd40d0ce8aa4a102941097cb1e6dae9:-735127675,5b8dd94992280650703e8767986c0edc:-735127675,27def40d82a406509b5244a88c42e531:-416803569</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_fd8d84474724ca500aeaa144846d4393</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>VPN</label><live_feed_enabled>false</live_feed_enabled><name>u_vpn</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-02-28 09:43:58</sys_created_on><sys_id>fd8d84474724ca500aeaa144846d4393</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VPN</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_fd8d84474724ca500aeaa144846d4393</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-02-28 09:43:58</sys_updated_on><update_access>false</update_access><user_role display_value="u_vpn_user" name="u_vpn_user">507e80874724ca500aeaa144846d4363</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1603228148</payload_hash>
+<remote_update_set display_value="LPG Tablas creadas y modificadas">f997c5cc1baa4a1062f8ea46624bcbba</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:17:26</sys_created_on>
+<sys_id>f997c5cc1baa4a1062f8ea46624bcbbb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbff31fb50000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:17:26</sys_updated_on>
+<table>u_vpn</table>
+<target_name>VPN</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>afd40d0c8aaa4a106f953fdd1c1d7fe7</update_guid>
+<update_guid_history>afd40d0c8aaa4a106f953fdd1c1d7fe7:1603228148,417e84871524ca505df5f8f3453e7d45:1603228148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_337e84874724ca500aeaa144846d435c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Conexiones VPN</label><live_feed_enabled>false</live_feed_enabled><name>u_conexiones_vpn</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-02-28 09:46:18</sys_created_on><sys_id>337e84874724ca500aeaa144846d435c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conexiones VPN</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_337e84874724ca500aeaa144846d435c</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-02-28 09:46:18</sys_updated_on><update_access>false</update_access><user_role display_value="u_conexiones_vpn_user" name="u_conexiones_vpn_user">6afe8c874724ca500aeaa144846d431c</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>993785827</payload_hash>
+<remote_update_set display_value="LPG Tablas creadas y modificadas">f997c5cc1baa4a1062f8ea46624bcbba</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:17:26</sys_created_on>
+<sys_id>fd97c5cc1baa4a1062f8ea46624bcbba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbff31f450000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:17:26</sys_updated_on>
+<table>u_conexiones_vpn</table>
+<target_name>Conexiones VPN</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>6fd40d0c88aa4a109149e237d029dbe3</update_guid>
+<update_guid_history>6fd40d0c88aa4a109149e237d029dbe3:993785827,07fe8c870924ca5000943ae0e435ed96:993785827</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
