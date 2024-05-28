@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:10:21">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Scripts programados</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a819fc001baa4a1062f8ea46624bcba6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:10:19</sys_created_on>
+<sys_id>a5f54d4c1baa4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:10:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_trigger_b0cf1e4e1ba1c21018398485604bcb16</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_trigger"><sys_trigger action="INSERT_OR_UPDATE"><application/><business_calendar/><calendar/><claimed_by/><document>sysauto_script</document><document_key>630b1a4a1ba1c21018398485604bcb9c</document_key><entered_time>1970-01-01 00:00:00</entered_time><error_count>0</error_count><job_classification>Recurring.LPG Actualizar conexiones WiFi diariamente</job_classification><job_context>#Mon May 27 15:00:05 PDT 2024
+fcDocumentName=LPG Actualizar conexiones WiFi diariamente
+fcDocumentKey=630b1a4a1ba1c21018398485604bcb9c
+fcDocumentClass=sysauto_script
+fcDocumentScope=global
+</job_context><job_id/><last_error/><log>false</log><maintenance>false</maintenance><max_drift/><name>LPG Actualizar conexiones WiFi diariamente</name><next_action>2024-05-28 22:00:00</next_action><offset/><offset_type>0</offset_type><parent/><priority>100</priority><processing_duration>248</processing_duration><repeat/><replication_originator/><rollback_context_id/><run_count>43</run_count><run_dayofmonth>1</run_dayofmonth><run_dayofweek>1</run_dayofweek><run_month/><run_time>1969-12-31 23:00:00</run_time><run_weekinmonth/><script/><state>0</state><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-15 10:47:44</sys_created_on><sys_id>b0cf1e4e1ba1c21018398485604bcb16</sys_id><sys_mod_count>129</sys_mod_count><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-05-27 22:00:05</sys_updated_on><system_id/><time_zone>Europe/Madrid</time_zone><transaction_id/><trigger_class>com.snc.automation.ScriptJob</trigger_class><trigger_type>11</trigger_type><upgrade_safe>false</upgrade_safe></sys_trigger></record_update>]]></payload>
+<payload_hash>831135907</payload_hash>
+<remote_update_set display_value="LPG Scripts programados">a5f54d4c1baa4a1062f8ea46624bcb69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:10:19</sys_created_on>
+<sys_id>6df54d4c1baa4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc530fd0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:10:19</sys_updated_on>
+<table/>
+<target_name>LPG Actualizar conexiones WiFi diariamente</target_name>
+<type>Schedule Item</type>
+<update_domain>global</update_domain>
+<update_guid>a869344097aa4a102009bbb664073cee</update_guid>
+<update_guid_history>a869344097aa4a102009bbb664073cee:831135907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_trigger_26eb968a1ba1c21018398485604bcbd0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_trigger"><sys_trigger action="INSERT_OR_UPDATE"><application/><business_calendar/><calendar/><claimed_by/><document>sysauto_script</document><document_key>373764ec1b2d821062f8ea46624bcb8e</document_key><entered_time>1970-01-01 00:00:00</entered_time><error_count>0</error_count><job_classification>Recurring.LPG Actualizar licencias software diariamente</job_classification><job_context>#Mon May 27 15:00:03 PDT 2024
+fcDocumentName=LPG Actualizar licencias software diariamente
+fcDocumentKey=373764ec1b2d821062f8ea46624bcb8e
+fcDocumentClass=sysauto_script
+fcDocumentScope=global
+</job_context><job_id/><last_error/><log>false</log><maintenance>false</maintenance><max_drift/><name>LPG Actualizar licencias software diariamente</name><next_action>2024-05-28 22:00:00</next_action><offset/><offset_type>0</offset_type><parent/><priority>100</priority><processing_duration>811</processing_duration><repeat/><replication_originator/><rollback_context_id/><run_count>43</run_count><run_dayofmonth>1</run_dayofmonth><run_dayofweek>1</run_dayofweek><run_month/><run_time>1969-12-31 23:00:00</run_time><run_weekinmonth/><script/><state>0</state><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-04-15 10:30:55</sys_created_on><sys_id>26eb968a1ba1c21018398485604bcbd0</sys_id><sys_mod_count>129</sys_mod_count><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-05-27 22:00:03</sys_updated_on><system_id/><time_zone>Europe/Madrid</time_zone><transaction_id/><trigger_class>com.snc.automation.ScriptJob</trigger_class><trigger_type>11</trigger_type><upgrade_safe>false</upgrade_safe></sys_trigger></record_update>]]></payload>
+<payload_hash>-600704067</payload_hash>
+<remote_update_set display_value="LPG Scripts programados">a5f54d4c1baa4a1062f8ea46624bcb69</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:10:19</sys_created_on>
+<sys_id>a9f54d4c1baa4a1062f8ea46624bcb69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc530d20000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:10:19</sys_updated_on>
+<table/>
+<target_name>LPG Actualizar licencias software diariamente</target_name>
+<type>Schedule Item</type>
+<update_domain>global</update_domain>
+<update_guid>ec6934406baa4a10ed8dcf85651558ec</update_guid>
+<update_guid_history>ec6934406baa4a10ed8dcf85651558ec:-600704067</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
