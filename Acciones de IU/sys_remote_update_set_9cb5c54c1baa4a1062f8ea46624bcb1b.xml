@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:09:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Acciones de IU</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>0b78b4001baa4a1062f8ea46624bcbad</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:09:09</sys_created_on>
+<sys_id>9cb5c54c1baa4a1062f8ea46624bcb1b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:09:09</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_905a857b1bed4a1018398485604bcbd4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;escalate_incident&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+    g_form.submit(g_form.getActionName());
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;gs.getUser().hasRole("sn_incident_write") &amp;amp;&amp;amp; current.u_nivel&amp;gt;0 &amp;amp;&amp;amp; new global.EscalateIncidentUtils().esEscalable(current.subcategory, current.u_nivel) &amp;amp;&amp;amp; current.state!=6 &amp;amp;&amp;amp; current.state!=8&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;true&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages&gt;Botón que escala un incidente&lt;/messages&gt;&lt;name&gt;Escalar&lt;/name&gt;&lt;onclick&gt;escalarIncidente();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[escalarIncidente();
+
+
+function escalarIncidente() {
+    // Aumentar nivel del incidente
+    current.u_nivel = current.u_nivel + 1;
+
+    // Cambiar el assignment group
+    var group = new global.EscalateIncidentUtils().getGrupoAsignacion(current.subcategory, current.u_nivel);
+
+    if (group != null) {
+        current.assigned_to = "";
+        current.assignment_group = group;
+    }
+
+    current.work_notes = "La incidencia se eleva a nivel " + current.u_nivel + " y será gestionada por el grupo de " + new global.EscalateIncidentUtils().getGrupo(group).name;
+    current.comments = "Su incidencia se ha elevado a nivel " + current.u_nivel + " y será gestionada por el grupo de " + new global.EscalateIncidentUtils().getGrupo(group).name;
+
+    current.update();
+    //action.setRedirectURL(current);
+
+    if (gs.action.getGlideURI().toString().indexOf('api/now') == -1) {
+		var url = current.getTableName() + '_list.do';
+        action.setRedirectURL(url);
+		gs.addInfoMessage("El incidente se ha escalado correctamente");
+    } else {
+        // Workspace
+        action.setRedirectURL("now/sow/list/params/list-id/7ae4da1ec3013010965e070e9140dd66/tiny-id/R45AIWy1W72vIRB0tocMpGkThDoi9RHj");
+		gs.addInfoMessage("El incidente se ha escalado correctamente");
+    }
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lucia.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-20 15:03:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;905a857b1bed4a1018398485604bcbd4&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Escalar&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_905a857b1bed4a1018398485604bcbd4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lucia.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-07 07:39:22&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>413786759</payload_hash>
+<remote_update_set display_value="LPG Acciones de IU">9cb5c54c1baa4a1062f8ea46624bcb1b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:09:09</sys_created_on>
+<sys_id>90b5c54c1baa4a1062f8ea46624bcb1c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfc352180000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:09:09</sys_updated_on>
+<table>incident</table>
+<target_name>Escalar</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>fae8f80080aa4a100ee919fe3361ca21</update_guid>
+<update_guid_history>fae8f80080aa4a100ee919fe3361ca21:413786759,0ca78fcd72c20610acee127fa054dde3:413786759,840f95fff2218a1059c19924ee903955:1438148864,d7ced1ffc0218a103e2a256e8ae35335:-30685562,0dedd1bf94218a10f840196ccd620187:-2039960225,e0dd9d7f52218a10394e4fd8a8ab0fc9:1903647295,7d7c153f95218a102dfef4bbb4604c81:-1556031674,9f3ad5bb5f218a109fd9036c9416d83e:-1778267253,e3d99d7bc5218a10db50a174a1eb719b:1226857475,14d759f778218a10985c9b4b8ac73bca:-713376800,3e3711f73b218a1047d1a53ca725bc82:619988303,85265d77eb218a1061309c26277ef4fe:-2131409540,5ba319f386218a1071ed87cc37a8f28d:-710790099,ed8111732c218a10134d601e9a2bf440:-1060660040,a731d93340218a1051c8b46beaf0f8b7:1842463118,595b4dbbdced4a10fa5ae7e70fcc8045:1835981202,41fa45bb32ed4a10840eaf8bc87aa8fe:-237612142,7eaa8d7bd4ed4a10ae7f86124d32e5b7:1972527534,2c5a857b9aed4a105b9ec5d26370b4d8:-1259260302</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
