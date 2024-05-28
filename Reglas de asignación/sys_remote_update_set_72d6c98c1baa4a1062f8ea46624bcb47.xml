@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-28 16:14:14">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LPG Reglas de asignacion</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>545085081baa4a1062f8ea46624bcbe2</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:14:13</sys_created_on>
+<sys_id>72d6c98c1baa4a1062f8ea46624bcb47</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:14:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysrule_assignment_6ab52a2a47b80a100aeaa144846d43f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="change_request">category=seguridad^EQ<item display_value="Seguridad" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="seguridad"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group display_value="Unidad de seguridad" name="Unidad de seguridad">913e525f47d731500aeaa144846d4329</group><match_conditions>ALL</match_conditions><name>Cambios de seguridad</name><order>100</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-03-10 17:44:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6ab52a2a47b80a100aeaa144846d43f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cambios de seguridad</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysrule_assignment_6ab52a2a47b80a100aeaa144846d43f6</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-03-10 17:44:17</sys_updated_on><table>change_request</table><user/></sysrule_assignment></record_update>]]></payload>
+<payload_hash>1187271903</payload_hash>
+<remote_update_set display_value="LPG Reglas de asignacion">72d6c98c1baa4a1062f8ea46624bcb47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:14:13</sys_created_on>
+<sys_id>3ad6c98c1baa4a1062f8ea46624bcb47</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe259e50000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:14:13</sys_updated_on>
+<table>change_request</table>
+<target_name>Cambios de seguridad</target_name>
+<type>Assignment Rule</type>
+<update_domain>global</update_domain>
+<update_guid>d7a0c908dbaa4a10d8cc07ed6888644c</update_guid>
+<update_guid_history>d7a0c908dbaa4a10d8cc07ed6888644c:1187271903,efd5aa2adbb80a10daef25cc7c8ae7c2:1187271903</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysrule_assignment_18026e2647b80a100aeaa144846d43c7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="change_request">category=red^EQ<item display_value="Red" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="red"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group display_value="Unidad de redes" name="Unidad de redes">9db334a31b4fb11062f8ea46624bcb37</group><match_conditions>ALL</match_conditions><name>Cambios en la red</name><order>100</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-03-10 17:28:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>18026e2647b80a100aeaa144846d43c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cambios en la red</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysrule_assignment_18026e2647b80a100aeaa144846d43c7</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-03-10 17:28:27</sys_updated_on><table>change_request</table><user/></sysrule_assignment></record_update>]]></payload>
+<payload_hash>1934519163</payload_hash>
+<remote_update_set display_value="LPG Reglas de asignacion">72d6c98c1baa4a1062f8ea46624bcb47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:14:13</sys_created_on>
+<sys_id>76d6c98c1baa4a1062f8ea46624bcb47</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe259ba0000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:14:13</sys_updated_on>
+<table>change_request</table>
+<target_name>Cambios en la red</target_name>
+<type>Assignment Rule</type>
+<update_domain>global</update_domain>
+<update_guid>9fa0c90847aa4a105e6410cc94532b4a</update_guid>
+<update_guid_history>9fa0c90847aa4a105e6410cc94532b4a:1934519163,ff32ee2668b80a1078ce018fbe1ba1cc:1934519163</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysrule_assignment_ec426e2647b80a100aeaa144846d43cf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="change_request">category=campusvirtual^EQ<item display_value="Campus virtual" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="campusvirtual"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group display_value="Unidad de campus virtual" name="Unidad de campus virtual">52047ca31b4fb11062f8ea46624bcb96</group><match_conditions>ALL</match_conditions><name>Cambios en el campus virtual</name><order>100</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-03-10 17:29:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec426e2647b80a100aeaa144846d43cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cambios en el campus virtual</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysrule_assignment_ec426e2647b80a100aeaa144846d43cf</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-03-10 17:29:00</sys_updated_on><table>change_request</table><user/></sysrule_assignment></record_update>]]></payload>
+<payload_hash>1676674811</payload_hash>
+<remote_update_set display_value="LPG Reglas de asignacion">72d6c98c1baa4a1062f8ea46624bcb47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:14:13</sys_created_on>
+<sys_id>bed6c98c1baa4a1062f8ea46624bcb47</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe25a690000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:14:13</sys_updated_on>
+<table>change_request</table>
+<target_name>Cambios en el campus virtual</target_name>
+<type>Assignment Rule</type>
+<update_domain>global</update_domain>
+<update_guid>93a00d08f0aa4a106aca8bd432caadd1</update_guid>
+<update_guid_history>93a00d08f0aa4a106aca8bd432caadd1:1676674811,0462e2669ab80a10f5b56c739f9e8c1f:1676674811</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysrule_assignment_a062626647b80a100aeaa144846d4393</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="change_request">category=mantenimientodehardware^EQ<item display_value="Mantenimiento de hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="mantenimientodehardware"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group display_value="Unidad de soporte a aulas" name="Unidad de soporte a aulas">696470e31b4fb11062f8ea46624bcb3f</group><match_conditions>ALL</match_conditions><name>Cambios por mantenimiento de hardware</name><order>100</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>lucia.admin</sys_created_by><sys_created_on>2024-03-10 17:43:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a062626647b80a100aeaa144846d4393</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cambios por mantenimiento de hardware</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysrule_assignment_a062626647b80a100aeaa144846d4393</sys_update_name><sys_updated_by>lucia.admin</sys_updated_by><sys_updated_on>2024-03-10 17:43:26</sys_updated_on><table>change_request</table><user/></sysrule_assignment></record_update>]]></payload>
+<payload_hash>-237395561</payload_hash>
+<remote_update_set display_value="LPG Reglas de asignacion">72d6c98c1baa4a1062f8ea46624bcb47</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>lucia.admin</sys_created_by>
+<sys_created_on>2024-05-28 16:14:13</sys_created_on>
+<sys_id>fad6c98c1baa4a1062f8ea46624bcb47</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18fbfe25a370000001</sys_recorded_at>
+<sys_updated_by>lucia.admin</sys_updated_by>
+<sys_updated_on>2024-05-28 16:14:13</sys_updated_on>
+<table>change_request</table>
+<target_name>Cambios por mantenimiento de hardware</target_name>
+<type>Assignment Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5ba00d0856aa4a1031ec8c1cd5e21dcf</update_guid>
+<update_guid_history>5ba00d0856aa4a1031ec8c1cd5e21dcf:-237395561,53a52a2afab80a101de731715efc3124:-237395561</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
