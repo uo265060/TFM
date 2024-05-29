@@ -1,3 +1,4 @@
+TFM - Gestión de servicios TI de la Universidad de Oviedo con ServiceNow
 ESTRUCTURA FICHERO:
 ./ -> Contiene el código implementado en la aplicación
 ./Acciones de IU -> Contiene un archivo XML (lpg_acciones_de_iu.xml) con el código de todas las acciones de IU creadas en el proyecto.
